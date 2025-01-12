@@ -1,0 +1,176 @@
+DEBUG - 2024-12-27 00:04:48 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-27 00:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-27 00:11:04 --> ErrorException: Undefined array key "nama_alamatrumahdinas	"
+[Method: GET, Route: persetujuan]
+in APPPATH\Views\data-persetujuan.php on line 107.
+ 1 APPPATH\Views\data-persetujuan.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_alamatrumahdinas	"', 'C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-persetujuan.php', 107)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-persetujuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-persetujuan', [], true)
+ 5 APPPATH\Controllers\PersetujuanController.php(60): view('data-persetujuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-27 00:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-27 00:11:16 --> ErrorException: Undefined array key "nama_alamatrumahdinas"
+[Method: GET, Route: persetujuan]
+in APPPATH\Views\data-persetujuan.php on line 107.
+ 1 APPPATH\Views\data-persetujuan.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_alamatrumahdinas"', 'C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-persetujuan.php', 107)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-persetujuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-persetujuan', [], true)
+ 5 APPPATH\Controllers\PersetujuanController.php(60): view('data-persetujuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-27 00:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 00:20:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\PermohonanController::$email is deprecated in APPPATH\Controllers\PermohonanController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PermohonanController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-27 00:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 00:20:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\SkpdController::$email is deprecated in APPPATH\Controllers\SkpdController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\SkpdController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-27 00:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-27 00:25:21 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-27 00:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-27 00:27:08 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-27 00:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 00:27:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\PermohonanController::$email is deprecated in APPPATH\Controllers\PermohonanController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PermohonanController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-27 00:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 00:28:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\PermohonanController::$email is deprecated in APPPATH\Controllers\PermohonanController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PermohonanController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-27 00:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 00:28:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\PermohonanController::$email is deprecated in APPPATH\Controllers\PermohonanController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PermohonanController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+WARNING - 2024-12-27 00:31:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\PermohonanController::$email is deprecated in APPPATH\Controllers\PermohonanController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PermohonanController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-27 00:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 00:31:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\PermohonanController::$email is deprecated in APPPATH\Controllers\PermohonanController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PermohonanController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-27 00:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-27 00:31:44 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+DEBUG - 2024-12-27 00:33:45 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-27 00:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 00:34:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\PermohonanController::$email is deprecated in APPPATH\Controllers\PermohonanController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PermohonanController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-27 00:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 00:34:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\PermohonanController::$email is deprecated in APPPATH\Controllers\PermohonanController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PermohonanController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-27 00:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 00:35:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\PermohonanController::$email is deprecated in APPPATH\Controllers\PermohonanController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PermohonanController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-27 00:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 00:35:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\PermohonanController::$email is deprecated in APPPATH\Controllers\PermohonanController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PermohonanController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-27 00:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 00:35:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\PermohonanController::$email is deprecated in APPPATH\Controllers\PermohonanController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PermohonanController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-27 00:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 00:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

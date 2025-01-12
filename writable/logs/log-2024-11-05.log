@@ -1,0 +1,539 @@
+CRITICAL - 2024-11-05 00:31:07 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:31:08 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:33:24 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:33:25 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:33:26 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:33:26 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:33:26 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:33:37 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:38:58 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:38:59 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:39:00 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:39:00 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:39:00 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:39:00 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:39:01 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:39:01 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:39:01 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:39:02 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:39:02 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:40:50 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:40:51 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:40:51 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:40:51 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:40:52 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:40:52 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 00:40:52 --> Error: Call to a member function countAll() on null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 06:39:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(56): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 06:43:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(56): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 06:43:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(56): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 06:43:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(56): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 06:43:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(56): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 06:44:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(56): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 06:44:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(56): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 06:46:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(56): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 06:46:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(56): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 06:49:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(56): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 07:51:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(39): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 07:51:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(39): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 07:51:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(39): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 07:51:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(39): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 07:51:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(39): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 07:55:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(39): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 07:55:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(39): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 07:59:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(39): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+CRITICAL - 2024-11-05 07:59:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bangunan/index.php"
+[Method: GET, Route: bangunan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bangunan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bangunan/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(39): view('bangunan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->viewBangunan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+INFO - 2024-11-05 12:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 12:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-05 12:55:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(32): view('header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')
+INFO - 2024-11-05 13:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-05 13:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-05 13:48:25 --> ErrorException: Undefined array key "lokasi"
+[Method: GET, Route: bangunan]
+in APPPATH\Views\data-bangunan.php on line 56.
+ 1 APPPATH\Views\data-bangunan.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasi"', 'C:\\laragon\\www\\sewa_aset\\app\\Views\\data-bangunan.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\sewa_aset\\app\\Views\\data-bangunan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-bangunan', [], true)
+ 5 APPPATH\Controllers\BangunanController.php(32): view('data-bangunan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BangunanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BangunanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\sewa_aset\\public\\index.php')

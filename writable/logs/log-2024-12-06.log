@@ -1,0 +1,844 @@
+INFO - 2024-12-06 01:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 01:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 01:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 01:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 01:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 01:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 01:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 01:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-06 01:47:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: permohonan/update_status_terima/8]
+in APPPATH\Controllers\PermohonanController.php on line 292.
+ 1 APPPATH\Controllers\PermohonanController.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Controllers\\PermohonanController.php', 292)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-06 01:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-06 01:48:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: permohonan/update_status_terima/8]
+in APPPATH\Controllers\PermohonanController.php on line 292.
+ 1 APPPATH\Controllers\PermohonanController.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Controllers\\PermohonanController.php', 292)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-06 01:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 01:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-06 02:02:36 --> mysqli_sql_exception: Column 'id_skpd' cannot be null in D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pe...', 0)
+#1 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 D:\laragon\www\surat_izin_rumdis\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 D:\laragon\www\surat_izin_rumdis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\surat_izin_rumdis\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\surat_izin_rumdis\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\surat_izin_rumdis\app\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+#9 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+#10 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\laragon\www\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\laragon\www\surat_izin_rumdis\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-12-06 02:02:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_skpd' cannot be null
+[Method: POST, Route: permohonan/update_status_terima/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:02:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_skpd' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, \'8\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:02:36 --> [Caused by] mysqli_sql_exception: Column 'id_skpd' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, \'8\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, \'8\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-06 02:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-06 02:05:04 --> mysqli_sql_exception: Column 'id_skpd' cannot be null in D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pe...', 0)
+#1 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 D:\laragon\www\surat_izin_rumdis\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 D:\laragon\www\surat_izin_rumdis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\surat_izin_rumdis\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\surat_izin_rumdis\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\surat_izin_rumdis\app\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+#9 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+#10 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\laragon\www\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\laragon\www\surat_izin_rumdis\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-12-06 02:05:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_skpd' cannot be null
+[Method: POST, Route: permohonan/update_status_terima/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:05:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_skpd' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, \'8\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:05:04 --> [Caused by] mysqli_sql_exception: Column 'id_skpd' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, \'8\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, \'8\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-06 02:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-06 02:20:04 --> mysqli_sql_exception: Column 'tanggal_mulai' cannot be null in D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pe...', 0)
+#1 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 D:\laragon\www\surat_izin_rumdis\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 D:\laragon\www\surat_izin_rumdis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\surat_izin_rumdis\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\surat_izin_rumdis\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\surat_izin_rumdis\app\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+#9 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+#10 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\laragon\www\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\laragon\www\surat_izin_rumdis\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-12-06 02:20:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal_mulai' cannot be null
+[Method: POST, Route: permohonan/update_status_terima/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:20:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal_mulai' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:20:04 --> [Caused by] mysqli_sql_exception: Column 'tanggal_mulai' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-06 02:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-06 02:20:55 --> mysqli_sql_exception: Column 'tanggal_mulai' cannot be null in D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pe...', 0)
+#1 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 D:\laragon\www\surat_izin_rumdis\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 D:\laragon\www\surat_izin_rumdis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\surat_izin_rumdis\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\surat_izin_rumdis\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\surat_izin_rumdis\app\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+#9 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+#10 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\laragon\www\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\laragon\www\surat_izin_rumdis\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-12-06 02:20:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal_mulai' cannot be null
+[Method: POST, Route: permohonan/update_status_terima/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:20:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal_mulai' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:20:55 --> [Caused by] mysqli_sql_exception: Column 'tanggal_mulai' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-06 02:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-06 02:22:54 --> mysqli_sql_exception: Column 'tanggal_mulai' cannot be null in D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pe...', 0)
+#1 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 D:\laragon\www\surat_izin_rumdis\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 D:\laragon\www\surat_izin_rumdis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\surat_izin_rumdis\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\surat_izin_rumdis\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\surat_izin_rumdis\app\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+#9 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+#10 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\laragon\www\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\laragon\www\surat_izin_rumdis\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-12-06 02:22:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal_mulai' cannot be null
+[Method: POST, Route: permohonan/update_status_terima/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:22:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal_mulai' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:22:54 --> [Caused by] mysqli_sql_exception: Column 'tanggal_mulai' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+ERROR - 2024-12-06 02:24:17 --> mysqli_sql_exception: Column 'tanggal_mulai' cannot be null in D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pe...', 0)
+#1 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 D:\laragon\www\surat_izin_rumdis\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 D:\laragon\www\surat_izin_rumdis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\surat_izin_rumdis\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\surat_izin_rumdis\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\surat_izin_rumdis\app\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+#9 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+#10 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\laragon\www\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\laragon\www\surat_izin_rumdis\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-12-06 02:24:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal_mulai' cannot be null
+[Method: POST, Route: permohonan/update_status_terima/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:24:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal_mulai' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:24:17 --> [Caused by] mysqli_sql_exception: Column 'tanggal_mulai' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+ERROR - 2024-12-06 02:24:46 --> mysqli_sql_exception: Column 'tanggal_mulai' cannot be null in D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pe...', 0)
+#1 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 D:\laragon\www\surat_izin_rumdis\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 D:\laragon\www\surat_izin_rumdis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\surat_izin_rumdis\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\surat_izin_rumdis\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\surat_izin_rumdis\app\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+#9 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+#10 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\laragon\www\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\laragon\www\surat_izin_rumdis\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-12-06 02:24:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal_mulai' cannot be null
+[Method: POST, Route: permohonan/update_status_terima/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:24:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal_mulai' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:24:46 --> [Caused by] mysqli_sql_exception: Column 'tanggal_mulai' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+ERROR - 2024-12-06 02:25:30 --> mysqli_sql_exception: Column 'tanggal_mulai' cannot be null in D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pe...', 0)
+#1 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 D:\laragon\www\surat_izin_rumdis\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 D:\laragon\www\surat_izin_rumdis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\surat_izin_rumdis\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\surat_izin_rumdis\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\surat_izin_rumdis\app\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+#9 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+#10 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\laragon\www\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\laragon\www\surat_izin_rumdis\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-12-06 02:25:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal_mulai' cannot be null
+[Method: POST, Route: permohonan/update_status_terima/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:25:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal_mulai' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:25:30 --> [Caused by] mysqli_sql_exception: Column 'tanggal_mulai' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-06 02:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-06 02:28:00 --> mysqli_sql_exception: Column 'tanggal_mulai' cannot be null in D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pe...', 0)
+#1 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 D:\laragon\www\surat_izin_rumdis\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 D:\laragon\www\surat_izin_rumdis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\surat_izin_rumdis\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\surat_izin_rumdis\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\surat_izin_rumdis\app\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+#9 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+#10 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\laragon\www\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\laragon\www\surat_izin_rumdis\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-12-06 02:28:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal_mulai' cannot be null
+[Method: POST, Route: permohonan/update_status_terima/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:28:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal_mulai' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 02:28:00 --> [Caused by] mysqli_sql_exception: Column 'tanggal_mulai' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (NULL, NULL, NULL, NULL, NULL, \'8\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persetujuan` (`tanggal_mulai`, `tanggal_berakhir`, `id_skpd`, `id_golrum`, `id_instansipencatatan`, `id_pemohon`) VALUES (:tanggal_mulai:, :tanggal_berakhir:, :id_skpd:, :id_golrum:, :id_instansipencatatan:, :id_pemohon:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PermohonanController.php(313): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('8')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+DEBUG - 2024-12-06 02:30:25 --> Request Data: {"action":"accept"}
+DEBUG - 2024-12-06 02:32:05 --> Response Data: {"success":true,"message":"Permohonan berhasil diterima."}
+INFO - 2024-12-06 02:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-06 02:33:56 --> Request Data: {"action":"accept"}
+INFO - 2024-12-06 02:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-06 02:39:56 --> ErrorException: Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+[Method: GET, Route: permohonan/detail/8]
+in APPPATH\Controllers\PermohonanController.php on line 299.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-12-06 02:40:16 --> ErrorException: Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+[Method: GET, Route: permohonan/detail/8]
+in APPPATH\Controllers\PermohonanController.php on line 299.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-12-06 02:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 02:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-06 02:48:19 --> ErrorException: Undefined array key 2
+[Method: GET, Route: persetujuan]
+in APPPATH\Views\data-persetujuan.php on line 51.
+ 1 APPPATH\Views\data-persetujuan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\data-persetujuan.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\data-persetujuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-persetujuan', [], true)
+ 5 APPPATH\Controllers\PersetujuanController.php(41): view('data-persetujuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 06:43:13 --> ErrorException: Undefined variable $googleAuthUrl
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 33.
+ 1 APPPATH\Views\welcome_message.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $googleAuthUrl', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\welcome_message.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(11): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 06:44:46 --> ErrorException: Undefined variable $googleAuthUrl
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 33.
+ 1 APPPATH\Views\welcome_message.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $googleAuthUrl', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\welcome_message.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(11): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+DEBUG - 2024-12-06 06:46:01 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=958351315186-os02i5frn8aokvvpglr3bhvq0i1ug3e9.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Fcallback&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+DEBUG - 2024-12-06 07:02:13 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=958351315186-os02i5frn8aokvvpglr3bhvq0i1ug3e9.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Fcallback&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+DEBUG - 2024-12-06 07:07:39 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=958351315186-os02i5frn8aokvvpglr3bhvq0i1ug3e9.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fcallback&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+DEBUG - 2024-12-06 07:07:41 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=958351315186-os02i5frn8aokvvpglr3bhvq0i1ug3e9.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fcallback&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+DEBUG - 2024-12-06 07:07:48 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=958351315186-os02i5frn8aokvvpglr3bhvq0i1ug3e9.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fcallback&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+DEBUG - 2024-12-06 07:09:28 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=958351315186-os02i5frn8aokvvpglr3bhvq0i1ug3e9.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fcallback&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+CRITICAL - 2024-12-06 07:10:51 --> ErrorException: Undefined array key "access_token"
+[Method: GET, Route: callback]
+in APPPATH\Controllers\Home.php on line 42.
+ 1 APPPATH\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "access_token"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Controllers\\Home.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->googleCallback()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 07:24:42 --> ParseError: syntax error, unexpected token "public"
+[Method: GET, Route: callback]
+in APPPATH\Controllers\Home.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\surat_izin_rumdis\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+ERROR - 2024-12-06 07:25:01 --> Google OAuth error: {"error":"invalid_grant","error_description":"Bad Request"}
+INFO - 2024-12-06 07:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-06 07:33:40 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+DEBUG - 2024-12-06 07:33:42 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+ERROR - 2024-12-06 07:44:37 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\surat_izin_rumdis\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\surat_izin_rumdis\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\surat_izin_rumdis\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\surat_izin_rumdis\app\Controllers\Home.php(53): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\Home->googleCallback()
+#8 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\laragon\www\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\laragon\www\surat_izin_rumdis\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-12-06 07:44:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: GET, Route: LoginProses]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Home.php(53): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->googleCallback()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 07:44:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `login`
+WHERE `email` = \'anangafh@gmail.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `login`
+WHERE `email` = \'anangafh@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Home.php(53): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->googleCallback()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-06 07:44:37 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `login`
+WHERE `email` = \'anangafh@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `login`
+WHERE `email` = \'anangafh@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `login`
+WHERE `email` = \'anangafh@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Home.php(53): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->googleCallback()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-06 07:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 07:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

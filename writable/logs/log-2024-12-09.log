@@ -1,0 +1,1107 @@
+DEBUG - 2024-12-09 00:06:17 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 00:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 00:19:38 --> ParseError: syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: status]
+in APPPATH\Controllers\PersetujuanController.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\surat_izin_rumdis\\app\\Controllers\\PersetujuanController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PersetujuanController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PersetujuanController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\PersetujuanController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 00:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 00:31:55 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 00:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:05:08 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: permohonan/create]
+in APPPATH\Views\input-permohonan.php on line 36.
+ 1 APPPATH\Views\input-permohonan.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\input-permohonan.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\input-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('input-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(105): view('input-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 01:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 01:07:09 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 01:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 01:09:39 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 01:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:16:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: permohonan/update_status_terima/9]
+in APPPATH\Controllers\PermohonanController.php on line 304.
+ 1 APPPATH\Controllers\PermohonanController.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Controllers\\PermohonanController.php', 304)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('9')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 01:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:16:33 --> ErrorException: Attempt to read property "id_approver" on null
+[Method: POST, Route: permohonan/update_status_terima/9]
+in APPPATH\Controllers\PermohonanController.php on line 304.
+ 1 APPPATH\Controllers\PermohonanController.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_approver" on null', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Controllers\\PermohonanController.php', 304)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('9')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 01:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:17:19 --> ErrorException: Attempt to read property "id_approver" on array
+[Method: POST, Route: permohonan/update_status_terima/9]
+in APPPATH\Controllers\PermohonanController.php on line 304.
+ 1 APPPATH\Controllers\PermohonanController.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_approver" on array', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Controllers\\PermohonanController.php', 304)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update_status_terima('9')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 01:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:22:13 --> ParseError: syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: persetujuan]
+in APPPATH\Controllers\PersetujuanController.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\surat_izin_rumdis\\app\\Controllers\\PersetujuanController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PersetujuanController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PersetujuanController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\PersetujuanController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+ERROR - 2024-12-09 01:26:02 --> mysqli_sql_exception: Unknown column 'instansipencatatan.id_instansipencaatan' in 'on clause' in D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\surat_izin_rumdis\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\surat_izin_rumdis\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\surat_izin_rumdis\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\surat_izin_rumdis\app\Controllers\PersetujuanController.php(34): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PersetujuanController->index()
+#8 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+#9 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\laragon\www\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\laragon\www\surat_izin_rumdis\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-12-09 01:26:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'instansipencatatan.id_instansipencaatan' in 'on clause'
+[Method: GET, Route: persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persetujuan`
+LEFT JOIN `golonganrumahdinas` ON `golonganrumahdinas`.`id_golrum`=`persetujuan`.`id_golrum`
+JOIN `instansipencatatan` ON `instansipencatatan`.`id_instansipencaatan`=`persetujuan`.`id_instansipencatatan`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PersetujuanController.php(34): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-09 01:26:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'instansipencatatan.id_instansipencaatan' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `persetujuan`
+LEFT JOIN `golonganrumahdinas` ON `golonganrumahdinas`.`id_golrum`=`persetujuan`.`id_golrum`
+JOIN `instansipencatatan` ON `instansipencatatan`.`id_instansipencaatan`=`persetujuan`.`id_instansipencatatan`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `persetujuan`
+LEFT JOIN `golonganrumahdinas` ON `golonganrumahdinas`.`id_golrum`=`persetujuan`.`id_golrum`
+JOIN `instansipencatatan` ON `instansipencatatan`.`id_instansipencaatan`=`persetujuan`.`id_instansipencatatan`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persetujuan`
+LEFT JOIN `golonganrumahdinas` ON `golonganrumahdinas`.`id_golrum`=`persetujuan`.`id_golrum`
+JOIN `instansipencatatan` ON `instansipencatatan`.`id_instansipencaatan`=`persetujuan`.`id_instansipencatatan`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\PersetujuanController.php(34): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-09 01:26:02 --> [Caused by] mysqli_sql_exception: Unknown column 'instansipencatatan.id_instansipencaatan' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `persetujuan`
+LEFT JOIN `golonganrumahdinas` ON `golonganrumahdinas`.`id_golrum`=`persetujuan`.`id_golrum`
+JOIN `instansipencatatan` ON `instansipencatatan`.`id_instansipencaatan`=`persetujuan`.`id_instansipencatatan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `persetujuan`
+LEFT JOIN `golonganrumahdinas` ON `golonganrumahdinas`.`id_golrum`=`persetujuan`.`id_golrum`
+JOIN `instansipencatatan` ON `instansipencatatan`.`id_instansipencaatan`=`persetujuan`.`id_instansipencatatan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `persetujuan`
+LEFT JOIN `golonganrumahdinas` ON `golonganrumahdinas`.`id_golrum`=`persetujuan`.`id_golrum`
+JOIN `instansipencatatan` ON `instansipencatatan`.`id_instansipencaatan`=`persetujuan`.`id_instansipencatatan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persetujuan`
+LEFT JOIN `golonganrumahdinas` ON `golonganrumahdinas`.`id_golrum`=`persetujuan`.`id_golrum`
+JOIN `instansipencatatan` ON `instansipencatatan`.`id_instansipencaatan`=`persetujuan`.`id_instansipencatatan`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\PersetujuanController.php(34): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 01:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:31:47 --> ErrorException: Undefined array key "tanggal_awal"
+[Method: GET, Route: persetujuan]
+in APPPATH\Views\data-persetujuan.php on line 54.
+ 1 APPPATH\Views\data-persetujuan.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_awal"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\data-persetujuan.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\data-persetujuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-persetujuan', [], true)
+ 5 APPPATH\Controllers\PersetujuanController.php(42): view('data-persetujuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 01:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 01:52:19 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 01:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:54:54 --> ErrorException: Undefined variable $asn
+[Method: GET, Route: home/akun]
+in APPPATH\Views\data-asn.php on line 56.
+ 1 APPPATH\Views\data-asn.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $asn', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\data-asn.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\data-asn.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-asn', [], true)
+ 5 APPPATH\Controllers\Home.php(189): view('data-asn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 01:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:55:28 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: home/akun]
+in APPPATH\Views\akun.php on line 41.
+ 1 APPPATH\Views\akun.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\akun.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akun', [], true)
+ 5 APPPATH\Controllers\Home.php(189): view('akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 01:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:56:33 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: home/akun]
+in APPPATH\Views\akun.php on line 41.
+ 1 APPPATH\Views\akun.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\akun.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akun', [], true)
+ 5 APPPATH\Controllers\Home.php(189): view('akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 01:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:57:09 --> ErrorException: Undefined variable $jumlah_keluarga
+[Method: GET, Route: home/akun]
+in APPPATH\Views\akun.php on line 93.
+ 1 APPPATH\Views\akun.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jumlah_keluarga', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\akun.php', 93)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akun', [], true)
+ 5 APPPATH\Controllers\Home.php(189): view('akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 01:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:58:05 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: home/akun]
+in APPPATH\Views\akun.php on line 41.
+ 1 APPPATH\Views\akun.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\akun.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akun', [], true)
+ 5 APPPATH\Controllers\Home.php(190): view('akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 01:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:58:29 --> ErrorException: Attempt to read property "nama" on array
+[Method: GET, Route: home/akun]
+in APPPATH\Views\akun.php on line 41.
+ 1 APPPATH\Views\akun.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on array', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\akun.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akun', [], true)
+ 5 APPPATH\Controllers\Home.php(190): view('akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 01:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:58:44 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: home/akun]
+in APPPATH\Views\akun.php on line 41.
+ 1 APPPATH\Views\akun.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\akun.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akun', [], true)
+ 5 APPPATH\Controllers\Home.php(190): view('akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 02:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:00:19 --> ErrorException: Undefined property: App\Controllers\Home::$KeluargaModel
+[Method: GET, Route: home/akun]
+in APPPATH\Controllers\Home.php on line 175.
+ 1 APPPATH\Controllers\Home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$KeluargaModel', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Controllers\\Home.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->akun()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 02:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 02:01:30 --> mysqli_sql_exception: Unknown column 'login.id_login' in 'where clause' in D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\laragon\www\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\laragon\www\surat_izin_rumdis\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\laragon\www\surat_izin_rumdis\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 D:\laragon\www\surat_izin_rumdis\app\Controllers\Home.php(178): CodeIgniter\Model->countAllResults()
+#6 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\Home->akun()
+#7 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\laragon\www\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\laragon\www\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\laragon\www\surat_izin_rumdis\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-12-09 02:01:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'login.id_login' in 'where clause'
+[Method: GET, Route: home/akun]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `keluarga`
+WHERE `login`.`id_login` = :login.id_login:', [...], false)
+ 2 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Controllers\Home.php(178): CodeIgniter\Model->countAllResults()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->akun()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-09 02:01:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'login.id_login' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `keluarga`
+WHERE `login`.`id_login` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `keluarga`
+WHERE `login`.`id_login` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `keluarga`
+WHERE `login`.`id_login` = :login.id_login:', [...], false)
+ 4 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Controllers\Home.php(178): CodeIgniter\Model->countAllResults()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-09 02:01:30 --> [Caused by] mysqli_sql_exception: Unknown column 'login.id_login' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `keluarga`
+WHERE `login`.`id_login` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `keluarga`
+WHERE `login`.`id_login` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `keluarga`
+WHERE `login`.`id_login` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `keluarga`
+WHERE `login`.`id_login` = :login.id_login:', [...], false)
+ 5 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Controllers\Home.php(178): CodeIgniter\Model->countAllResults()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->akun()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 02:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 02:14:51 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 02:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:15:03 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: home/akun]
+in APPPATH\Views\akun.php on line 127.
+ 1 APPPATH\Views\akun.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\akun.php', 127)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('akun', [], true)
+ 5 APPPATH\Controllers\Home.php(197): view('akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 02:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 02:16:15 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 02:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 02:16:22 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 02:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 02:19:33 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 02:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 02:19:45 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 02:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 02:19:59 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 02:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 02:24:10 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 02:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 02:25:56 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 02:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:39:52 --> BadMethodCallException: Call to undefined method App\Models\PermohonanModel::count
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\DashboardController.php(25): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 02:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:41:24 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 28.
+ 1 APPPATH\Controllers\DashboardController.php(28): count('9')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 02:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:42:00 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 28.
+ 1 APPPATH\Controllers\DashboardController.php(28): count('9')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 02:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:42:19 --> ErrorException: Attempt to read property "id_pemohon" on array
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 28.
+ 1 APPPATH\Controllers\DashboardController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_pemohon" on array', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Controllers\\DashboardController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 02:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:42:36 --> ErrorException: Undefined array key "id_pemohon"
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 28.
+ 1 APPPATH\Controllers\DashboardController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pemohon"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Controllers\\DashboardController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 02:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:42:52 --> ErrorException: Undefined array key "id_asn"
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 28.
+ 1 APPPATH\Controllers\DashboardController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_asn"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Controllers\\DashboardController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 02:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:44:18 --> ErrorException: Array to string conversion
+[Method: GET, Route: dashboard]
+in APPPATH\Views\index.php on line 74.
+ 1 APPPATH\Views\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\index.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(33): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 02:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 02:45:00 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 02:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:49:58 --> ErrorException: Undefined variable $skpd
+[Method: GET, Route: instansipencatatan/edit/1]
+in APPPATH\Views\edit-instansipencatatan.php on line 21.
+ 1 APPPATH\Views\edit-instansipencatatan.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $skpd', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\edit-instansipencatatan.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\edit-instansipencatatan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-instansipencatatan', [], true)
+ 5 APPPATH\Controllers\InstansiPencatatanController.php(49): view('edit-instansipencatatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InstansiPencatatanController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstansiPencatatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 02:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:55:28 --> ErrorException: Undefined variable $skpd
+[Method: GET, Route: instansipencatatan/edit/1]
+in APPPATH\Views\edit-instansipencatatan.php on line 31.
+ 1 APPPATH\Views\edit-instansipencatatan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $skpd', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\edit-instansipencatatan.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\edit-instansipencatatan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-instansipencatatan', [], true)
+ 5 APPPATH\Controllers\InstansiPencatatanController.php(49): view('edit-instansipencatatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InstansiPencatatanController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstansiPencatatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 02:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:57:10 --> ErrorException: Undefined array key "nama_alamat"
+[Method: GET, Route: alamatrumahdinas/edit/1]
+in APPPATH\Views\edit-alamatrumahdinas.php on line 23.
+ 1 APPPATH\Views\edit-alamatrumahdinas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_alamat"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\edit-alamatrumahdinas.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\edit-alamatrumahdinas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-alamatrumahdinas', [], true)
+ 5 APPPATH\Controllers\AlamatRumahDinasController.php(49): view('edit-alamatrumahdinas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AlamatRumahDinasController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlamatRumahDinasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 02:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:59:59 --> ErrorException: Undefined variable $alamatrumahdinas
+[Method: GET, Route: alamatrumahdinas/create]
+in APPPATH\Views\input-alamatrumahdinas.php on line 31.
+ 1 APPPATH\Views\input-alamatrumahdinas.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alamatrumahdinas', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\input-alamatrumahdinas.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\input-alamatrumahdinas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('input-alamatrumahdinas', [], true)
+ 5 APPPATH\Controllers\AlamatRumahDinasController.php(30): view('input-alamatrumahdinas')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AlamatRumahDinasController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlamatRumahDinasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 03:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 03:07:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "edit-golonganpangkat.php"
+[Method: GET, Route: golonganpangkat/edit/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit-golonganpangkat.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-golonganpangkat', [], true)
+ 3 APPPATH\Controllers\GolonganPangkatController.php(51): view('edit-golonganpangkat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GolonganPangkatController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GolonganPangkatController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 03:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 03:10:11 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: golonganrumahdinas/edit/1]
+in APPPATH\Views\edit-golonganrumahdinas.php on line 20.
+ 1 APPPATH\Views\edit-golonganrumahdinas.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\edit-golonganrumahdinas.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\edit-golonganrumahdinas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-golonganrumahdinas', [], true)
+ 5 APPPATH\Controllers\GolonganRumahDinasController.php(49): view('edit-golonganrumahdinas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GolonganRumahDinasController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GolonganRumahDinasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 03:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 03:10:25 --> ErrorException: Undefined array key "id_golonganrumahdinas"
+[Method: GET, Route: golonganrumahdinas/edit/1]
+in APPPATH\Views\edit-golonganrumahdinas.php on line 20.
+ 1 APPPATH\Views\edit-golonganrumahdinas.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_golonganrumahdinas"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\edit-golonganrumahdinas.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\edit-golonganrumahdinas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-golonganrumahdinas', [], true)
+ 5 APPPATH\Controllers\GolonganRumahDinasController.php(49): view('edit-golonganrumahdinas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GolonganRumahDinasController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GolonganRumahDinasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 03:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 03:50:18 --> ErrorException: require_once(D:\laragon\www\surat_izin_rumdis\app\ThirdParty/FPDF/fpdf.php): Failed to open stream: No such file or directory
+[Method: GET, Route: persetujuan/download/13]
+in APPPATH\Controllers\PersetujuanController.php on line 138.
+ 1 APPPATH\Controllers\PersetujuanController.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\laragon\\www\\surat_izin_rumdis\\app\\ThirdParty/FPDF/fpdf.php): Failed to open stream: No such file or directory', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Controllers\\PersetujuanController.php', 138)
+ 2 APPPATH\Controllers\PersetujuanController.php(138): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('13')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-09 03:50:57 --> ErrorException: Undefined property: App\Controllers\PersetujuanController::$AsnModel
+[Method: GET, Route: persetujuan/download/13]
+in APPPATH\Controllers\PersetujuanController.php on line 150.
+ 1 APPPATH\Controllers\PersetujuanController.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PersetujuanController::$AsnModel', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Controllers\\PersetujuanController.php', 150)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('13')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-09 03:53:05 --> Exception: FPDF error: Incorrect output destination: data_asn.pdf
+[Method: GET, Route: persetujuan/download/13]
+in APPPATH\ThirdParty\FPDF\fpdf.php on line 267.
+ 1 APPPATH\ThirdParty\FPDF\fpdf.php(1033): FPDF->Error('Incorrect output destination: data_asn.pdf')
+ 2 APPPATH\Controllers\PersetujuanController.php(161): FPDF->Output('data_asn.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('13')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 05:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 05:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 05:17:23 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 05:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 05:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 05:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 05:36:47 --> ErrorException: Undefined array key "nama_golonganpangkat"
+[Method: GET, Route: persetujuan/download/13]
+in APPPATH\Views\cetak.php on line 17.
+ 1 APPPATH\Views\cetak.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_golonganpangkat"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\cetak.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\cetak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cetak', [], true)
+ 5 APPPATH\Controllers\PersetujuanController.php(146): view('cetak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-12-09 05:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 05:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 05:41:42 --> ErrorException: Undefined variable $data
+[Method: GET, Route: persetujuan/download/14]
+in APPPATH\Views\cetak.php on line 64.
+ 1 APPPATH\Views\cetak.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\cetak.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\cetak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cetak', [], true)
+ 5 APPPATH\Controllers\PersetujuanController.php(147): view('cetak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-09 05:48:01 --> ErrorException: getimagesize(/tala.jpg): Failed to open stream: No such file or directory
+[Method: GET, Route: persetujuan/download/14]
+in APPPATH\ThirdParty\FPDF\fpdf.php on line 1255.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/tala.jpg): Failed to open stream: No such file or directory', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\ThirdParty\\FPDF\\fpdf.php', 1255)
+ 2 APPPATH\ThirdParty\FPDF\fpdf.php(1255): getimagesize('/tala.jpg')
+ 3 APPPATH\ThirdParty\FPDF\fpdf.php(890): FPDF->_parsejpg('/tala.jpg')
+ 4 APPPATH\Views\cetak.php(61): FPDF->Image('/tala.jpg', 10, 10, 50)
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\cetak.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cetak', [], true)
+ 8 APPPATH\Controllers\PersetujuanController.php(147): view('cetak', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('14')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+DEBUG - 2024-12-09 08:00:04 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 08:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 08:00:14 --> ErrorException: Undefined array key "nomor_rumah_dinas"
+[Method: GET, Route: persetujuan/download/13]
+in APPPATH\Views\cetak.php on line 76.
+ 1 APPPATH\Views\cetak.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_rumah_dinas"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\cetak.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\cetak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cetak', [], true)
+ 5 APPPATH\Controllers\PersetujuanController.php(149): view('cetak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-09 08:04:13 --> ErrorException: Undefined array key "nama_golonganrumahdinas"
+[Method: GET, Route: persetujuan/download/13]
+in APPPATH\Views\cetak.php on line 81.
+ 1 APPPATH\Views\cetak.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_golonganrumahdinas"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\cetak.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\cetak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cetak', [], true)
+ 5 APPPATH\Controllers\PersetujuanController.php(149): view('cetak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-09 08:18:33 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: persetujuan/download/13]
+in APPPATH\Views\cetak.php on line 3.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cetak', [], true)
+ 3 APPPATH\Controllers\PersetujuanController.php(155): view('cetak', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('13')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-09 08:18:43 --> ErrorException: Undefined array key "golongan_rumah"
+[Method: GET, Route: persetujuan/download/13]
+in APPPATH\Views\cetak.php on line 110.
+ 1 APPPATH\Views\cetak.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "golongan_rumah"', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\cetak.php', 110)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\cetak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cetak', [], true)
+ 5 APPPATH\Controllers\PersetujuanController.php(155): view('cetak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-12-09 08:25:04 --> ErrorException: Undefined variable $kaluarga
+[Method: GET, Route: persetujuan/download/13]
+in APPPATH\Views\cetak.php on line 146.
+ 1 APPPATH\Views\cetak.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kaluarga', 'D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\cetak.php', 146)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\surat_izin_rumdis\\app\\Views\\cetak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cetak', [], true)
+ 5 APPPATH\Controllers\PersetujuanController.php(155): view('cetak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\surat_izin_rumdis\\public\\index.php')
+DEBUG - 2024-12-09 12:43:34 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 12:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 12:47:54 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 12:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 12:50:31 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 12:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 13:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 13:13:41 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto
+INFO - 2024-12-09 13:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 13:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-09 13:36:47 --> Google Auth URL: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=330396029158-1mphe2b22nfr91du4r89q304nhurvenq.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FLoginProses&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=auto

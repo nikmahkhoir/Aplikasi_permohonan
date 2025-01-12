@@ -1,0 +1,112 @@
+CRITICAL - 2025-01-09 06:20:25 --> ErrorException: Undefined array key "09"
+[Method: GET, Route: persetujuan/download/23]
+in APPPATH\Views\cetak.php on line 16.
+ 1 APPPATH\Views\cetak.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "09"', 'C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\cetak.php', 16)
+ 2 APPPATH\Views\cetak.php(278): terbilang('09')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\cetak.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cetak', [], true)
+ 6 APPPATH\Controllers\PersetujuanController.php(152): view('cetak', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('23')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2025-01-09 06:20:56 --> ErrorException: Undefined array key "09"
+[Method: GET, Route: persetujuan/download/23]
+in APPPATH\Views\cetak.php on line 16.
+ 1 APPPATH\Views\cetak.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "09"', 'C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\cetak.php', 16)
+ 2 APPPATH\Views\cetak.php(278): terbilang('09')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\cetak.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cetak', [], true)
+ 6 APPPATH\Controllers\PersetujuanController.php(152): view('cetak', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('23')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2025-01-09 06:21:25 --> ErrorException: Undefined array key "09"
+[Method: GET, Route: persetujuan/download/23]
+in APPPATH\Views\cetak.php on line 16.
+ 1 APPPATH\Views\cetak.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "09"', 'C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\cetak.php', 16)
+ 2 APPPATH\Views\cetak.php(278): terbilang('09')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\cetak.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cetak', [], true)
+ 6 APPPATH\Controllers\PersetujuanController.php(152): view('cetak', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('23')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2025-01-09 06:21:46 --> ErrorException: Undefined array key "09"
+[Method: GET, Route: persetujuan/download/23]
+in APPPATH\Views\cetak.php on line 16.
+ 1 APPPATH\Views\cetak.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "09"', 'C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\cetak.php', 16)
+ 2 APPPATH\Views\cetak.php(278): terbilang('09')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\cetak.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cetak', [], true)
+ 6 APPPATH\Controllers\PersetujuanController.php(152): view('cetak', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('23')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2025-01-09 06:25:49 --> ErrorException: Undefined array key "09"
+[Method: GET, Route: persetujuan/download/23]
+in APPPATH\Views\cetak.php on line 16.
+ 1 APPPATH\Views\cetak.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "09"', 'C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\cetak.php', 16)
+ 2 APPPATH\Views\cetak.php(278): terbilang('09')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\cetak.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cetak', [], true)
+ 6 APPPATH\Controllers\PersetujuanController.php(152): view('cetak', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('23')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2025-01-09 06:55:58 --> ErrorException: Undefined array key "09"
+[Method: GET, Route: persetujuan/download/23]
+in APPPATH\Views\cetak.php on line 16.
+ 1 APPPATH\Views\cetak.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "09"', 'C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\cetak.php', 16)
+ 2 APPPATH\Views\cetak.php(278): terbilang('09')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\cetak.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cetak', [], true)
+ 6 APPPATH\Controllers\PersetujuanController.php(152): view('cetak', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('23')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2025-01-09 07:58:37 --> ErrorException: Undefined array key "09"
+[Method: GET, Route: persetujuan/download/23]
+in APPPATH\Views\cetak.php on line 16.
+ 1 APPPATH\Views\cetak.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "09"', 'C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\cetak.php', 16)
+ 2 APPPATH\Views\cetak.php(278): terbilang('09')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\cetak.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cetak', [], true)
+ 6 APPPATH\Controllers\PersetujuanController.php(152): view('cetak', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->cetak('23')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')

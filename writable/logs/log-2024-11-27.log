@@ -1,0 +1,1001 @@
+INFO - 2024-11-27 08:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 08:09:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "data-approver.php"
+[Method: GET, Route: approver]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data-approver.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-approver', [], true)
+ 3 APPPATH\Controllers\ApproverController.php(25): view('data-approver', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApproverController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApproverController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 08:50:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "data-approver.php"
+[Method: GET, Route: approver]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data-approver.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-approver', [], true)
+ 3 APPPATH\Controllers\ApproverController.php(25): view('data-approver', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApproverController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApproverController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-11-27 09:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 09:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 09:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 09:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 09:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 09:31:02 --> ErrorException: Undefined variable $approver
+[Method: GET, Route: approver]
+in APPPATH\Views\data-approver.php on line 36.
+ 1 APPPATH\Views\data-approver.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $approver', 'C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-approver.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-approver.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-approver', [], true)
+ 5 APPPATH\Controllers\ApproverController.php(25): view('data-approver', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApproverController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApproverController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 09:31:50 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: approver]
+in APPPATH\Views\data-approver.php on line 70.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-approver', [], true)
+ 3 APPPATH\Controllers\ApproverController.php(25): view('data-approver', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApproverController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApproverController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-11-27 09:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 13:01:47 --> ErrorException: Undefined variable $approver
+[Method: GET, Route: approver]
+in APPPATH\Views\data-approver.php on line 44.
+ 1 APPPATH\Views\data-approver.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $approver', 'C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-approver.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-approver.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-approver', [], true)
+ 5 APPPATH\Controllers\ApproverController.php(25): view('data-approver', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApproverController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApproverController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-11-27 13:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 13:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-27 13:18:40 --> mysqli_sql_exception: Column 'id_keluarga' cannot be null in C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\surat_izin_rumdis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\surat_izin_rumdis\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\surat_izin_rumdis\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\surat_izin_rumdis\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\surat_izin_rumdis\app\Controllers\PermohonanController.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PermohonanController->store()
+#10 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+#11 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\surat_izin_rumdis\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-11-27 13:18:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_keluarga' cannot be null
+[Method: POST, Route: permohonan/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (:nama_pemohon:, :nip:, :no_hp:, :jabatan:, :gaji_pokok:, :golongan_pangkat:, :instansi_pemohon:, :alamat_sekarang:, :bersedia_menaati:, :alamat_rumah_dinas:, :nomor_rumah_dinas:, :rumah_ditempati:, :tanggal_ditempati:, :keterangan:, :file_sk:, :file_ktp:, :file_kk:, :file_pas_foto:, :file_foto_rumah:, :id_asn:, :id_keluarga:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\PermohonanController.php(41): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:18:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_keluarga' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (\'Imahh\', \'34567\', \'67890\', \'gggh\', \'34567\', \'II\', \'dfghj,\', \'fghjk\', \'gg\', \'fghjkl\', \'456789/789\', \'aa\', \'2024-11-27\', \'ertyui\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (\'Imahh\', \'34567\', \'67890\', \'gggh\', \'34567\', \'II\', \'dfghj,\', \'fghjk\', \'gg\', \'fghjkl\', \'456789/789\', \'aa\', \'2024-11-27\', \'ertyui\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (:nama_pemohon:, :nip:, :no_hp:, :jabatan:, :gaji_pokok:, :golongan_pangkat:, :instansi_pemohon:, :alamat_sekarang:, :bersedia_menaati:, :alamat_rumah_dinas:, :nomor_rumah_dinas:, :rumah_ditempati:, :tanggal_ditempati:, :keterangan:, :file_sk:, :file_ktp:, :file_kk:, :file_pas_foto:, :file_foto_rumah:, :id_asn:, :id_keluarga:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\PermohonanController.php(41): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:18:40 --> [Caused by] mysqli_sql_exception: Column 'id_keluarga' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (\'Imahh\', \'34567\', \'67890\', \'gggh\', \'34567\', \'II\', \'dfghj,\', \'fghjk\', \'gg\', \'fghjkl\', \'456789/789\', \'aa\', \'2024-11-27\', \'ertyui\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (\'Imahh\', \'34567\', \'67890\', \'gggh\', \'34567\', \'II\', \'dfghj,\', \'fghjk\', \'gg\', \'fghjkl\', \'456789/789\', \'aa\', \'2024-11-27\', \'ertyui\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (\'Imahh\', \'34567\', \'67890\', \'gggh\', \'34567\', \'II\', \'dfghj,\', \'fghjk\', \'gg\', \'fghjkl\', \'456789/789\', \'aa\', \'2024-11-27\', \'ertyui\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (:nama_pemohon:, :nip:, :no_hp:, :jabatan:, :gaji_pokok:, :golongan_pangkat:, :instansi_pemohon:, :alamat_sekarang:, :bersedia_menaati:, :alamat_rumah_dinas:, :nomor_rumah_dinas:, :rumah_ditempati:, :tanggal_ditempati:, :keterangan:, :file_sk:, :file_ktp:, :file_kk:, :file_pas_foto:, :file_foto_rumah:, :id_asn:, :id_keluarga:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\PermohonanController.php(41): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->store()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+ERROR - 2024-11-27 13:19:40 --> mysqli_sql_exception: Column 'id_keluarga' cannot be null in C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\surat_izin_rumdis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\surat_izin_rumdis\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\surat_izin_rumdis\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\surat_izin_rumdis\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\surat_izin_rumdis\app\Controllers\PermohonanController.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PermohonanController->store()
+#10 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+#11 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\surat_izin_rumdis\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-11-27 13:19:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_keluarga' cannot be null
+[Method: POST, Route: permohonan/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (:nama_pemohon:, :nip:, :no_hp:, :jabatan:, :gaji_pokok:, :golongan_pangkat:, :instansi_pemohon:, :alamat_sekarang:, :bersedia_menaati:, :alamat_rumah_dinas:, :nomor_rumah_dinas:, :rumah_ditempati:, :tanggal_ditempati:, :keterangan:, :file_sk:, :file_ktp:, :file_kk:, :file_pas_foto:, :file_foto_rumah:, :id_asn:, :id_keluarga:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\PermohonanController.php(41): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:19:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_keluarga' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (\'Imahh\', \'34567\', \'67890\', \'gggh\', \'34567\', \'II\', \'dfghj,\', \'fghjk\', \'gg\', \'fghjkl\', \'456789/789\', \'aa\', \'2024-11-27\', \'ertyui\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (\'Imahh\', \'34567\', \'67890\', \'gggh\', \'34567\', \'II\', \'dfghj,\', \'fghjk\', \'gg\', \'fghjkl\', \'456789/789\', \'aa\', \'2024-11-27\', \'ertyui\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (:nama_pemohon:, :nip:, :no_hp:, :jabatan:, :gaji_pokok:, :golongan_pangkat:, :instansi_pemohon:, :alamat_sekarang:, :bersedia_menaati:, :alamat_rumah_dinas:, :nomor_rumah_dinas:, :rumah_ditempati:, :tanggal_ditempati:, :keterangan:, :file_sk:, :file_ktp:, :file_kk:, :file_pas_foto:, :file_foto_rumah:, :id_asn:, :id_keluarga:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\PermohonanController.php(41): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:19:40 --> [Caused by] mysqli_sql_exception: Column 'id_keluarga' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (\'Imahh\', \'34567\', \'67890\', \'gggh\', \'34567\', \'II\', \'dfghj,\', \'fghjk\', \'gg\', \'fghjkl\', \'456789/789\', \'aa\', \'2024-11-27\', \'ertyui\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (\'Imahh\', \'34567\', \'67890\', \'gggh\', \'34567\', \'II\', \'dfghj,\', \'fghjk\', \'gg\', \'fghjkl\', \'456789/789\', \'aa\', \'2024-11-27\', \'ertyui\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (\'Imahh\', \'34567\', \'67890\', \'gggh\', \'34567\', \'II\', \'dfghj,\', \'fghjk\', \'gg\', \'fghjkl\', \'456789/789\', \'aa\', \'2024-11-27\', \'ertyui\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', \'logo_bpkad_tanah_laut_no_bg_corrected.png\', NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permohonan` (`nama_pemohon`, `nip`, `no_hp`, `jabatan`, `gaji_pokok`, `golongan_pangkat`, `instansi_pemohon`, `alamat_sekarang`, `bersedia_menaati`, `alamat_rumah_dinas`, `nomor_rumah_dinas`, `rumah_ditempati`, `tanggal_ditempati`, `keterangan`, `file_sk`, `file_ktp`, `file_kk`, `file_pas_foto`, `file_foto_rumah`, `id_asn`, `id_keluarga`) VALUES (:nama_pemohon:, :nip:, :no_hp:, :jabatan:, :gaji_pokok:, :golongan_pangkat:, :instansi_pemohon:, :alamat_sekarang:, :bersedia_menaati:, :alamat_rumah_dinas:, :nomor_rumah_dinas:, :rumah_ditempati:, :tanggal_ditempati:, :keterangan:, :file_sk:, :file_ktp:, :file_kk:, :file_pas_foto:, :file_foto_rumah:, :id_asn:, :id_keluarga:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\PermohonanController.php(41): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->store()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-11-27 13:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 13:21:38 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\data-permohonan.php on line 83.
+ 1 APPPATH\Views\data-permohonan.php(83): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(26): view('data-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+WARNING - 2024-11-27 13:21:38 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\data-permohonan.php on line 84.
+ 1 APPPATH\Views\data-permohonan.php(84): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(26): view('data-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+WARNING - 2024-11-27 13:21:38 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\data-permohonan.php on line 85.
+ 1 APPPATH\Views\data-permohonan.php(85): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(26): view('data-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+WARNING - 2024-11-27 13:22:01 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\data-permohonan.php on line 83.
+ 1 APPPATH\Views\data-permohonan.php(83): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(26): view('data-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+WARNING - 2024-11-27 13:22:01 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\data-permohonan.php on line 84.
+ 1 APPPATH\Views\data-permohonan.php(84): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(26): view('data-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+WARNING - 2024-11-27 13:22:01 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\data-permohonan.php on line 85.
+ 1 APPPATH\Views\data-permohonan.php(85): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(26): view('data-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+WARNING - 2024-11-27 13:28:30 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\data-permohonan.php on line 83.
+ 1 APPPATH\Views\data-permohonan.php(83): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(26): view('data-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+WARNING - 2024-11-27 13:28:30 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\data-permohonan.php on line 84.
+ 1 APPPATH\Views\data-permohonan.php(84): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(26): view('data-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+WARNING - 2024-11-27 13:28:30 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\data-permohonan.php on line 85.
+ 1 APPPATH\Views\data-permohonan.php(85): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(26): view('data-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+ERROR - 2024-11-27 13:28:45 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`rumah_dinas`.`permohonan`, CONSTRAINT `permohonan_ibfk_1` FOREIGN KEY (`id_asn`) REFERENCES `asn` (`id_asn`)) in C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `permoho...', 0)
+#1 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `permoho...')
+#2 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `permoho...')
+#3 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `permoho...', Array, false)
+#4 C:\xampp\htdocs\surat_izin_rumdis\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\surat_izin_rumdis\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\surat_izin_rumdis\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\surat_izin_rumdis\app\Controllers\PermohonanController.php(79): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PermohonanController->update('1')
+#9 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+#10 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\surat_izin_rumdis\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-11-27 13:28:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`rumah_dinas`.`permohonan`, CONSTRAINT `permohonan_ibfk_1` FOREIGN KEY (`id_asn`) REFERENCES `asn` (`id_asn`))
+[Method: POST, Route: permohonan/update/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `permohonan` SET `nama_pemohon` = :nama_pemohon:, `nip` = :nip:, `no_hp` = :no_hp:, `jabatan` = :jabatan:, `gaji_pokok` = :gaji_pokok:, `golongan_pangkat` = :golongan_pangkat:, `instansi_pemohon` = :instansi_pemohon:, `alamat_sekarang` = :alamat_sekarang:, `bersedia_menaati` = :bersedia_menaati:, `alamat_rumah_dinas` = :alamat_rumah_dinas:, `nomor_rumah_dinas` = :nomor_rumah_dinas:, `rumah_ditempati` = :rumah_ditempati:, `tanggal_ditempati` = :tanggal_ditempati:, `keterangan` = :keterangan:, `file_sk` = :file_sk:, `file_ktp` = :file_ktp:, `file_kk` = :file_kk:, `file_pas_foto` = :file_pas_foto:, `file_foto_rumah` = :file_foto_rumah:, `id_asn` = :id_asn:, `id_keluarga` = :id_keluarga:
+WHERE `permohonan`.`id_pemohon` IN :permohonan.id_pemohon:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\PermohonanController.php(79): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:28:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`rumah_dinas`.`permohonan`, CONSTRAINT `permohonan_ibfk_1` FOREIGN KEY (`id_asn`) REFERENCES `asn` (`id_asn`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `permohonan` SET `nama_pemohon` = \'Imahh\', `nip` = \'34567\', `no_hp` = \'67890\', `jabatan` = \'gggh\', `gaji_pokok` = \'34567.00\', `golongan_pangkat` = \'\', `instansi_pemohon` = \'\', `alamat_sekarang` = \'fghjk123\', `bersedia_menaati` = \'\', `alamat_rumah_dinas` = \'\', `nomor_rumah_dinas` = \'456789/789\', `rumah_ditempati` = \'\', `tanggal_ditempati` = \'2024-11-27\', `keterangan` = \'ertyui\', `file_sk` = \'\', `file_ktp` = \'\', `file_kk` = \'\', `file_pas_foto` = \'\', `file_foto_rumah` = \'\', `id_asn` = \'\', `id_keluarga` = \'1\'
+WHERE `permohonan`.`id_pemohon` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `permohonan` SET `nama_pemohon` = \'Imahh\', `nip` = \'34567\', `no_hp` = \'67890\', `jabatan` = \'gggh\', `gaji_pokok` = \'34567.00\', `golongan_pangkat` = \'\', `instansi_pemohon` = \'\', `alamat_sekarang` = \'fghjk123\', `bersedia_menaati` = \'\', `alamat_rumah_dinas` = \'\', `nomor_rumah_dinas` = \'456789/789\', `rumah_ditempati` = \'\', `tanggal_ditempati` = \'2024-11-27\', `keterangan` = \'ertyui\', `file_sk` = \'\', `file_ktp` = \'\', `file_kk` = \'\', `file_pas_foto` = \'\', `file_foto_rumah` = \'\', `id_asn` = \'\', `id_keluarga` = \'1\'
+WHERE `permohonan`.`id_pemohon` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `permohonan` SET `nama_pemohon` = :nama_pemohon:, `nip` = :nip:, `no_hp` = :no_hp:, `jabatan` = :jabatan:, `gaji_pokok` = :gaji_pokok:, `golongan_pangkat` = :golongan_pangkat:, `instansi_pemohon` = :instansi_pemohon:, `alamat_sekarang` = :alamat_sekarang:, `bersedia_menaati` = :bersedia_menaati:, `alamat_rumah_dinas` = :alamat_rumah_dinas:, `nomor_rumah_dinas` = :nomor_rumah_dinas:, `rumah_ditempati` = :rumah_ditempati:, `tanggal_ditempati` = :tanggal_ditempati:, `keterangan` = :keterangan:, `file_sk` = :file_sk:, `file_ktp` = :file_ktp:, `file_kk` = :file_kk:, `file_pas_foto` = :file_pas_foto:, `file_foto_rumah` = :file_foto_rumah:, `id_asn` = :id_asn:, `id_keluarga` = :id_keluarga:
+WHERE `permohonan`.`id_pemohon` IN :permohonan.id_pemohon:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\PermohonanController.php(79): CodeIgniter\Model->update('1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:28:45 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`rumah_dinas`.`permohonan`, CONSTRAINT `permohonan_ibfk_1` FOREIGN KEY (`id_asn`) REFERENCES `asn` (`id_asn`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `permohonan` SET `nama_pemohon` = \'Imahh\', `nip` = \'34567\', `no_hp` = \'67890\', `jabatan` = \'gggh\', `gaji_pokok` = \'34567.00\', `golongan_pangkat` = \'\', `instansi_pemohon` = \'\', `alamat_sekarang` = \'fghjk123\', `bersedia_menaati` = \'\', `alamat_rumah_dinas` = \'\', `nomor_rumah_dinas` = \'456789/789\', `rumah_ditempati` = \'\', `tanggal_ditempati` = \'2024-11-27\', `keterangan` = \'ertyui\', `file_sk` = \'\', `file_ktp` = \'\', `file_kk` = \'\', `file_pas_foto` = \'\', `file_foto_rumah` = \'\', `id_asn` = \'\', `id_keluarga` = \'1\'
+WHERE `permohonan`.`id_pemohon` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `permohonan` SET `nama_pemohon` = \'Imahh\', `nip` = \'34567\', `no_hp` = \'67890\', `jabatan` = \'gggh\', `gaji_pokok` = \'34567.00\', `golongan_pangkat` = \'\', `instansi_pemohon` = \'\', `alamat_sekarang` = \'fghjk123\', `bersedia_menaati` = \'\', `alamat_rumah_dinas` = \'\', `nomor_rumah_dinas` = \'456789/789\', `rumah_ditempati` = \'\', `tanggal_ditempati` = \'2024-11-27\', `keterangan` = \'ertyui\', `file_sk` = \'\', `file_ktp` = \'\', `file_kk` = \'\', `file_pas_foto` = \'\', `file_foto_rumah` = \'\', `id_asn` = \'\', `id_keluarga` = \'1\'
+WHERE `permohonan`.`id_pemohon` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `permohonan` SET `nama_pemohon` = \'Imahh\', `nip` = \'34567\', `no_hp` = \'67890\', `jabatan` = \'gggh\', `gaji_pokok` = \'34567.00\', `golongan_pangkat` = \'\', `instansi_pemohon` = \'\', `alamat_sekarang` = \'fghjk123\', `bersedia_menaati` = \'\', `alamat_rumah_dinas` = \'\', `nomor_rumah_dinas` = \'456789/789\', `rumah_ditempati` = \'\', `tanggal_ditempati` = \'2024-11-27\', `keterangan` = \'ertyui\', `file_sk` = \'\', `file_ktp` = \'\', `file_kk` = \'\', `file_pas_foto` = \'\', `file_foto_rumah` = \'\', `id_asn` = \'\', `id_keluarga` = \'1\'
+WHERE `permohonan`.`id_pemohon` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `permohonan` SET `nama_pemohon` = :nama_pemohon:, `nip` = :nip:, `no_hp` = :no_hp:, `jabatan` = :jabatan:, `gaji_pokok` = :gaji_pokok:, `golongan_pangkat` = :golongan_pangkat:, `instansi_pemohon` = :instansi_pemohon:, `alamat_sekarang` = :alamat_sekarang:, `bersedia_menaati` = :bersedia_menaati:, `alamat_rumah_dinas` = :alamat_rumah_dinas:, `nomor_rumah_dinas` = :nomor_rumah_dinas:, `rumah_ditempati` = :rumah_ditempati:, `tanggal_ditempati` = :tanggal_ditempati:, `keterangan` = :keterangan:, `file_sk` = :file_sk:, `file_ktp` = :file_ktp:, `file_kk` = :file_kk:, `file_pas_foto` = :file_pas_foto:, `file_foto_rumah` = :file_foto_rumah:, `id_asn` = :id_asn:, `id_keluarga` = :id_keluarga:
+WHERE `permohonan`.`id_pemohon` IN :permohonan.id_pemohon:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\PermohonanController.php(79): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update('1')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+ERROR - 2024-11-27 13:29:17 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`rumah_dinas`.`permohonan`, CONSTRAINT `permohonan_ibfk_1` FOREIGN KEY (`id_asn`) REFERENCES `asn` (`id_asn`)) in C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `permoho...', 0)
+#1 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `permoho...')
+#2 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `permoho...')
+#3 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `permoho...', Array, false)
+#4 C:\xampp\htdocs\surat_izin_rumdis\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\surat_izin_rumdis\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\surat_izin_rumdis\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\surat_izin_rumdis\app\Controllers\PermohonanController.php(79): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PermohonanController->update('1')
+#9 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+#10 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\surat_izin_rumdis\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-11-27 13:29:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`rumah_dinas`.`permohonan`, CONSTRAINT `permohonan_ibfk_1` FOREIGN KEY (`id_asn`) REFERENCES `asn` (`id_asn`))
+[Method: POST, Route: permohonan/update/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `permohonan` SET `nama_pemohon` = :nama_pemohon:, `nip` = :nip:, `no_hp` = :no_hp:, `jabatan` = :jabatan:, `gaji_pokok` = :gaji_pokok:, `golongan_pangkat` = :golongan_pangkat:, `instansi_pemohon` = :instansi_pemohon:, `alamat_sekarang` = :alamat_sekarang:, `bersedia_menaati` = :bersedia_menaati:, `alamat_rumah_dinas` = :alamat_rumah_dinas:, `nomor_rumah_dinas` = :nomor_rumah_dinas:, `rumah_ditempati` = :rumah_ditempati:, `tanggal_ditempati` = :tanggal_ditempati:, `keterangan` = :keterangan:, `file_sk` = :file_sk:, `file_ktp` = :file_ktp:, `file_kk` = :file_kk:, `file_pas_foto` = :file_pas_foto:, `file_foto_rumah` = :file_foto_rumah:, `id_asn` = :id_asn:, `id_keluarga` = :id_keluarga:
+WHERE `permohonan`.`id_pemohon` IN :permohonan.id_pemohon:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\PermohonanController.php(79): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:29:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`rumah_dinas`.`permohonan`, CONSTRAINT `permohonan_ibfk_1` FOREIGN KEY (`id_asn`) REFERENCES `asn` (`id_asn`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `permohonan` SET `nama_pemohon` = \'Imahh\', `nip` = \'34567\', `no_hp` = \'67890\', `jabatan` = \'gggh\', `gaji_pokok` = \'34567.00\', `golongan_pangkat` = \'\', `instansi_pemohon` = \'\', `alamat_sekarang` = \'fghjk123\', `bersedia_menaati` = \'\', `alamat_rumah_dinas` = \'\', `nomor_rumah_dinas` = \'456789/789\', `rumah_ditempati` = \'\', `tanggal_ditempati` = \'2024-11-27\', `keterangan` = \'ertyui\', `file_sk` = \'\', `file_ktp` = \'\', `file_kk` = \'\', `file_pas_foto` = \'\', `file_foto_rumah` = \'\', `id_asn` = \'\', `id_keluarga` = \'1\'
+WHERE `permohonan`.`id_pemohon` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `permohonan` SET `nama_pemohon` = \'Imahh\', `nip` = \'34567\', `no_hp` = \'67890\', `jabatan` = \'gggh\', `gaji_pokok` = \'34567.00\', `golongan_pangkat` = \'\', `instansi_pemohon` = \'\', `alamat_sekarang` = \'fghjk123\', `bersedia_menaati` = \'\', `alamat_rumah_dinas` = \'\', `nomor_rumah_dinas` = \'456789/789\', `rumah_ditempati` = \'\', `tanggal_ditempati` = \'2024-11-27\', `keterangan` = \'ertyui\', `file_sk` = \'\', `file_ktp` = \'\', `file_kk` = \'\', `file_pas_foto` = \'\', `file_foto_rumah` = \'\', `id_asn` = \'\', `id_keluarga` = \'1\'
+WHERE `permohonan`.`id_pemohon` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `permohonan` SET `nama_pemohon` = :nama_pemohon:, `nip` = :nip:, `no_hp` = :no_hp:, `jabatan` = :jabatan:, `gaji_pokok` = :gaji_pokok:, `golongan_pangkat` = :golongan_pangkat:, `instansi_pemohon` = :instansi_pemohon:, `alamat_sekarang` = :alamat_sekarang:, `bersedia_menaati` = :bersedia_menaati:, `alamat_rumah_dinas` = :alamat_rumah_dinas:, `nomor_rumah_dinas` = :nomor_rumah_dinas:, `rumah_ditempati` = :rumah_ditempati:, `tanggal_ditempati` = :tanggal_ditempati:, `keterangan` = :keterangan:, `file_sk` = :file_sk:, `file_ktp` = :file_ktp:, `file_kk` = :file_kk:, `file_pas_foto` = :file_pas_foto:, `file_foto_rumah` = :file_foto_rumah:, `id_asn` = :id_asn:, `id_keluarga` = :id_keluarga:
+WHERE `permohonan`.`id_pemohon` IN :permohonan.id_pemohon:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\PermohonanController.php(79): CodeIgniter\Model->update('1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:29:17 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`rumah_dinas`.`permohonan`, CONSTRAINT `permohonan_ibfk_1` FOREIGN KEY (`id_asn`) REFERENCES `asn` (`id_asn`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `permohonan` SET `nama_pemohon` = \'Imahh\', `nip` = \'34567\', `no_hp` = \'67890\', `jabatan` = \'gggh\', `gaji_pokok` = \'34567.00\', `golongan_pangkat` = \'\', `instansi_pemohon` = \'\', `alamat_sekarang` = \'fghjk123\', `bersedia_menaati` = \'\', `alamat_rumah_dinas` = \'\', `nomor_rumah_dinas` = \'456789/789\', `rumah_ditempati` = \'\', `tanggal_ditempati` = \'2024-11-27\', `keterangan` = \'ertyui\', `file_sk` = \'\', `file_ktp` = \'\', `file_kk` = \'\', `file_pas_foto` = \'\', `file_foto_rumah` = \'\', `id_asn` = \'\', `id_keluarga` = \'1\'
+WHERE `permohonan`.`id_pemohon` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `permohonan` SET `nama_pemohon` = \'Imahh\', `nip` = \'34567\', `no_hp` = \'67890\', `jabatan` = \'gggh\', `gaji_pokok` = \'34567.00\', `golongan_pangkat` = \'\', `instansi_pemohon` = \'\', `alamat_sekarang` = \'fghjk123\', `bersedia_menaati` = \'\', `alamat_rumah_dinas` = \'\', `nomor_rumah_dinas` = \'456789/789\', `rumah_ditempati` = \'\', `tanggal_ditempati` = \'2024-11-27\', `keterangan` = \'ertyui\', `file_sk` = \'\', `file_ktp` = \'\', `file_kk` = \'\', `file_pas_foto` = \'\', `file_foto_rumah` = \'\', `id_asn` = \'\', `id_keluarga` = \'1\'
+WHERE `permohonan`.`id_pemohon` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `permohonan` SET `nama_pemohon` = \'Imahh\', `nip` = \'34567\', `no_hp` = \'67890\', `jabatan` = \'gggh\', `gaji_pokok` = \'34567.00\', `golongan_pangkat` = \'\', `instansi_pemohon` = \'\', `alamat_sekarang` = \'fghjk123\', `bersedia_menaati` = \'\', `alamat_rumah_dinas` = \'\', `nomor_rumah_dinas` = \'456789/789\', `rumah_ditempati` = \'\', `tanggal_ditempati` = \'2024-11-27\', `keterangan` = \'ertyui\', `file_sk` = \'\', `file_ktp` = \'\', `file_kk` = \'\', `file_pas_foto` = \'\', `file_foto_rumah` = \'\', `id_asn` = \'\', `id_keluarga` = \'1\'
+WHERE `permohonan`.`id_pemohon` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `permohonan` SET `nama_pemohon` = :nama_pemohon:, `nip` = :nip:, `no_hp` = :no_hp:, `jabatan` = :jabatan:, `gaji_pokok` = :gaji_pokok:, `golongan_pangkat` = :golongan_pangkat:, `instansi_pemohon` = :instansi_pemohon:, `alamat_sekarang` = :alamat_sekarang:, `bersedia_menaati` = :bersedia_menaati:, `alamat_rumah_dinas` = :alamat_rumah_dinas:, `nomor_rumah_dinas` = :nomor_rumah_dinas:, `rumah_ditempati` = :rumah_ditempati:, `tanggal_ditempati` = :tanggal_ditempati:, `keterangan` = :keterangan:, `file_sk` = :file_sk:, `file_ktp` = :file_ktp:, `file_kk` = :file_kk:, `file_pas_foto` = :file_pas_foto:, `file_foto_rumah` = :file_foto_rumah:, `id_asn` = :id_asn:, `id_keluarga` = :id_keluarga:
+WHERE `permohonan`.`id_pemohon` IN :permohonan.id_pemohon:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\PermohonanController.php(79): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update('1')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+ERROR - 2024-11-27 13:30:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`rumah_dinas`.`permohonan`, CONSTRAINT `permohonan_ibfk_1` FOREIGN KEY (`id_asn`) REFERENCES `asn` (`id_asn`) ON DELETE SET NULL ON UPDATE CASCADE) in C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `permoho...', 0)
+#1 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `permoho...')
+#2 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `permoho...')
+#3 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `permoho...', Array, false)
+#4 C:\xampp\htdocs\surat_izin_rumdis\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\surat_izin_rumdis\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\surat_izin_rumdis\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\surat_izin_rumdis\app\Controllers\PermohonanController.php(79): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PermohonanController->update('1')
+#9 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+#10 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\surat_izin_rumdis\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-11-27 13:30:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`rumah_dinas`.`permohonan`, CONSTRAINT `permohonan_ibfk_1` FOREIGN KEY (`id_asn`) REFERENCES `asn` (`id_asn`) ON DELETE SET NULL ON UPDATE CASCADE)
+[Method: POST, Route: permohonan/update/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `permohonan` SET `nama_pemohon` = :nama_pemohon:, `nip` = :nip:, `no_hp` = :no_hp:, `jabatan` = :jabatan:, `gaji_pokok` = :gaji_pokok:, `golongan_pangkat` = :golongan_pangkat:, `instansi_pemohon` = :instansi_pemohon:, `alamat_sekarang` = :alamat_sekarang:, `bersedia_menaati` = :bersedia_menaati:, `alamat_rumah_dinas` = :alamat_rumah_dinas:, `nomor_rumah_dinas` = :nomor_rumah_dinas:, `rumah_ditempati` = :rumah_ditempati:, `tanggal_ditempati` = :tanggal_ditempati:, `keterangan` = :keterangan:, `file_sk` = :file_sk:, `file_ktp` = :file_ktp:, `file_kk` = :file_kk:, `file_pas_foto` = :file_pas_foto:, `file_foto_rumah` = :file_foto_rumah:, `id_asn` = :id_asn:, `id_keluarga` = :id_keluarga:
+WHERE `permohonan`.`id_pemohon` IN :permohonan.id_pemohon:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\PermohonanController.php(79): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:30:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`rumah_dinas`.`permohonan`, CONSTRAINT `permohonan_ibfk_1` FOREIGN KEY (`id_asn`) REFERENCES `asn` (`id_asn`) ON DELETE SET NULL ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `permohonan` SET `nama_pemohon` = \'Imahh\', `nip` = \'34567\', `no_hp` = \'67890\', `jabatan` = \'gggh\', `gaji_pokok` = \'34567.00\', `golongan_pangkat` = \'\', `instansi_pemohon` = \'\', `alamat_sekarang` = \'fghjk123\', `bersedia_menaati` = \'\', `alamat_rumah_dinas` = \'\', `nomor_rumah_dinas` = \'456789/789\', `rumah_ditempati` = \'\', `tanggal_ditempati` = \'2024-11-27\', `keterangan` = \'ertyui\', `file_sk` = \'\', `file_ktp` = \'\', `file_kk` = \'\', `file_pas_foto` = \'\', `file_foto_rumah` = \'\', `id_asn` = \'\', `id_keluarga` = \'1\'
+WHERE `permohonan`.`id_pemohon` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `permohonan` SET `nama_pemohon` = \'Imahh\', `nip` = \'34567\', `no_hp` = \'67890\', `jabatan` = \'gggh\', `gaji_pokok` = \'34567.00\', `golongan_pangkat` = \'\', `instansi_pemohon` = \'\', `alamat_sekarang` = \'fghjk123\', `bersedia_menaati` = \'\', `alamat_rumah_dinas` = \'\', `nomor_rumah_dinas` = \'456789/789\', `rumah_ditempati` = \'\', `tanggal_ditempati` = \'2024-11-27\', `keterangan` = \'ertyui\', `file_sk` = \'\', `file_ktp` = \'\', `file_kk` = \'\', `file_pas_foto` = \'\', `file_foto_rumah` = \'\', `id_asn` = \'\', `id_keluarga` = \'1\'
+WHERE `permohonan`.`id_pemohon` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `permohonan` SET `nama_pemohon` = :nama_pemohon:, `nip` = :nip:, `no_hp` = :no_hp:, `jabatan` = :jabatan:, `gaji_pokok` = :gaji_pokok:, `golongan_pangkat` = :golongan_pangkat:, `instansi_pemohon` = :instansi_pemohon:, `alamat_sekarang` = :alamat_sekarang:, `bersedia_menaati` = :bersedia_menaati:, `alamat_rumah_dinas` = :alamat_rumah_dinas:, `nomor_rumah_dinas` = :nomor_rumah_dinas:, `rumah_ditempati` = :rumah_ditempati:, `tanggal_ditempati` = :tanggal_ditempati:, `keterangan` = :keterangan:, `file_sk` = :file_sk:, `file_ktp` = :file_ktp:, `file_kk` = :file_kk:, `file_pas_foto` = :file_pas_foto:, `file_foto_rumah` = :file_foto_rumah:, `id_asn` = :id_asn:, `id_keluarga` = :id_keluarga:
+WHERE `permohonan`.`id_pemohon` IN :permohonan.id_pemohon:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\PermohonanController.php(79): CodeIgniter\Model->update('1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:30:50 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`rumah_dinas`.`permohonan`, CONSTRAINT `permohonan_ibfk_1` FOREIGN KEY (`id_asn`) REFERENCES `asn` (`id_asn`) ON DELETE SET NULL ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `permohonan` SET `nama_pemohon` = \'Imahh\', `nip` = \'34567\', `no_hp` = \'67890\', `jabatan` = \'gggh\', `gaji_pokok` = \'34567.00\', `golongan_pangkat` = \'\', `instansi_pemohon` = \'\', `alamat_sekarang` = \'fghjk123\', `bersedia_menaati` = \'\', `alamat_rumah_dinas` = \'\', `nomor_rumah_dinas` = \'456789/789\', `rumah_ditempati` = \'\', `tanggal_ditempati` = \'2024-11-27\', `keterangan` = \'ertyui\', `file_sk` = \'\', `file_ktp` = \'\', `file_kk` = \'\', `file_pas_foto` = \'\', `file_foto_rumah` = \'\', `id_asn` = \'\', `id_keluarga` = \'1\'
+WHERE `permohonan`.`id_pemohon` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `permohonan` SET `nama_pemohon` = \'Imahh\', `nip` = \'34567\', `no_hp` = \'67890\', `jabatan` = \'gggh\', `gaji_pokok` = \'34567.00\', `golongan_pangkat` = \'\', `instansi_pemohon` = \'\', `alamat_sekarang` = \'fghjk123\', `bersedia_menaati` = \'\', `alamat_rumah_dinas` = \'\', `nomor_rumah_dinas` = \'456789/789\', `rumah_ditempati` = \'\', `tanggal_ditempati` = \'2024-11-27\', `keterangan` = \'ertyui\', `file_sk` = \'\', `file_ktp` = \'\', `file_kk` = \'\', `file_pas_foto` = \'\', `file_foto_rumah` = \'\', `id_asn` = \'\', `id_keluarga` = \'1\'
+WHERE `permohonan`.`id_pemohon` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `permohonan` SET `nama_pemohon` = \'Imahh\', `nip` = \'34567\', `no_hp` = \'67890\', `jabatan` = \'gggh\', `gaji_pokok` = \'34567.00\', `golongan_pangkat` = \'\', `instansi_pemohon` = \'\', `alamat_sekarang` = \'fghjk123\', `bersedia_menaati` = \'\', `alamat_rumah_dinas` = \'\', `nomor_rumah_dinas` = \'456789/789\', `rumah_ditempati` = \'\', `tanggal_ditempati` = \'2024-11-27\', `keterangan` = \'ertyui\', `file_sk` = \'\', `file_ktp` = \'\', `file_kk` = \'\', `file_pas_foto` = \'\', `file_foto_rumah` = \'\', `id_asn` = \'\', `id_keluarga` = \'1\'
+WHERE `permohonan`.`id_pemohon` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `permohonan` SET `nama_pemohon` = :nama_pemohon:, `nip` = :nip:, `no_hp` = :no_hp:, `jabatan` = :jabatan:, `gaji_pokok` = :gaji_pokok:, `golongan_pangkat` = :golongan_pangkat:, `instansi_pemohon` = :instansi_pemohon:, `alamat_sekarang` = :alamat_sekarang:, `bersedia_menaati` = :bersedia_menaati:, `alamat_rumah_dinas` = :alamat_rumah_dinas:, `nomor_rumah_dinas` = :nomor_rumah_dinas:, `rumah_ditempati` = :rumah_ditempati:, `tanggal_ditempati` = :tanggal_ditempati:, `keterangan` = :keterangan:, `file_sk` = :file_sk:, `file_ktp` = :file_ktp:, `file_kk` = :file_kk:, `file_pas_foto` = :file_pas_foto:, `file_foto_rumah` = :file_foto_rumah:, `id_asn` = :id_asn:, `id_keluarga` = :id_keluarga:
+WHERE `permohonan`.`id_pemohon` IN :permohonan.id_pemohon:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\PermohonanController.php(79): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->update('1')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-11-27 13:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 13:31:52 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\data-permohonan.php on line 84.
+ 1 APPPATH\Views\data-permohonan.php(84): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(26): view('data-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-11-27 13:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 13:32:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\data-permohonan.php on line 84.
+ 1 APPPATH\Views\data-permohonan.php(84): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(26): view('data-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+WARNING - 2024-11-27 13:32:34 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\data-permohonan.php on line 84.
+ 1 APPPATH\Views\data-permohonan.php(84): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(26): view('data-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+WARNING - 2024-11-27 13:34:48 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\data-permohonan.php on line 84.
+ 1 APPPATH\Views\data-permohonan.php(84): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(26): view('data-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+WARNING - 2024-11-27 13:39:14 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\data-permohonan.php on line 84.
+ 1 APPPATH\Views\data-permohonan.php(84): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(26): view('data-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+WARNING - 2024-11-27 13:39:17 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\data-permohonan.php on line 84.
+ 1 APPPATH\Views\data-permohonan.php(84): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\data-permohonan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('data-permohonan', [], true)
+ 5 APPPATH\Controllers\PermohonanController.php(26): view('data-permohonan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermohonanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermohonanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-11-27 13:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 13:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-27 13:44:40 --> mysqli_sql_exception: Unknown column 'persetujuan.id' in 'where clause' in C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\surat_izin_rumdis\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\surat_izin_rumdis\system\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\surat_izin_rumdis\app\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+#8 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+#9 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\surat_izin_rumdis\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-27 13:44:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuan.id' in 'where clause'
+[Method: GET, Route: persetujuan/edit/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = :persetujuan.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:44:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuan.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = :persetujuan.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 6 APPPATH\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:44:40 --> [Caused by] mysqli_sql_exception: Unknown column 'persetujuan.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = :persetujuan.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+ERROR - 2024-11-27 13:46:28 --> mysqli_sql_exception: Unknown column 'persetujuan.id' in 'where clause' in C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\surat_izin_rumdis\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\surat_izin_rumdis\system\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\surat_izin_rumdis\app\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+#8 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+#9 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\surat_izin_rumdis\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-27 13:46:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuan.id' in 'where clause'
+[Method: GET, Route: persetujuan/edit/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = :persetujuan.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:46:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuan.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = :persetujuan.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 6 APPPATH\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:46:28 --> [Caused by] mysqli_sql_exception: Unknown column 'persetujuan.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id` = :persetujuan.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+ERROR - 2024-11-27 13:47:06 --> mysqli_sql_exception: Unknown column 'persetujuan.id_pesetujuan' in 'where clause' in C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\surat_izin_rumdis\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\surat_izin_rumdis\system\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\surat_izin_rumdis\app\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+#8 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+#9 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\surat_izin_rumdis\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-27 13:47:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuan.id_pesetujuan' in 'where clause'
+[Method: GET, Route: persetujuan/edit/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = :persetujuan.id_pesetujuan:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:47:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuan.id_pesetujuan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = :persetujuan.id_pesetujuan:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 6 APPPATH\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:47:06 --> [Caused by] mysqli_sql_exception: Unknown column 'persetujuan.id_pesetujuan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = :persetujuan.id_pesetujuan:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+ERROR - 2024-11-27 13:47:10 --> mysqli_sql_exception: Unknown column 'persetujuan.id_pesetujuan' in 'where clause' in C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\surat_izin_rumdis\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\surat_izin_rumdis\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\surat_izin_rumdis\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\surat_izin_rumdis\system\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\surat_izin_rumdis\app\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+#8 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+#9 C:\xampp\htdocs\surat_izin_rumdis\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\surat_izin_rumdis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\surat_izin_rumdis\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\surat_izin_rumdis\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-27 13:47:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuan.id_pesetujuan' in 'where clause'
+[Method: GET, Route: persetujuan/edit/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = :persetujuan.id_pesetujuan:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:47:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuan.id_pesetujuan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = :persetujuan.id_pesetujuan:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 6 APPPATH\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:47:10 --> [Caused by] mysqli_sql_exception: Unknown column 'persetujuan.id_pesetujuan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persetujuan`
+WHERE `persetujuan`.`id_pesetujuan` = :persetujuan.id_pesetujuan:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH\Controllers\PersetujuanController.php(56): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:47:28 --> ErrorException: Undefined variable $permohonan
+[Method: GET, Route: persetujuan/edit/1]
+in APPPATH\Views\edit-persetujuan.php on line 19.
+ 1 APPPATH\Views\edit-persetujuan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $permohonan', 'C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\edit-persetujuan.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\edit-persetujuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-persetujuan', [], true)
+ 5 APPPATH\Controllers\PersetujuanController.php(59): view('edit-persetujuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:48:02 --> ErrorException: Undefined variable $permohonan
+[Method: GET, Route: persetujuan/edit/1]
+in APPPATH\Views\edit-persetujuan.php on line 22.
+ 1 APPPATH\Views\edit-persetujuan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $permohonan', 'C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\edit-persetujuan.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\edit-persetujuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-persetujuan', [], true)
+ 5 APPPATH\Controllers\PersetujuanController.php(59): view('edit-persetujuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+CRITICAL - 2024-11-27 13:49:29 --> ErrorException: Undefined variable $permohonan
+[Method: GET, Route: persetujuan/edit/1]
+in APPPATH\Views\edit-persetujuan.php on line 26.
+ 1 APPPATH\Views\edit-persetujuan.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $permohonan', 'C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\edit-persetujuan.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\surat_izin_rumdis\\app\\Views\\edit-persetujuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-persetujuan', [], true)
+ 5 APPPATH\Controllers\PersetujuanController.php(59): view('edit-persetujuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PersetujuanController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersetujuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\surat_izin_rumdis\\public\\index.php')
+INFO - 2024-11-27 13:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 13:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 13:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

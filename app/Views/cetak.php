@@ -79,7 +79,7 @@ require_once APPPATH . 'ThirdParty/FPDF/fpdf.php';
     $pdf->Ln(10); // New line
     $pdf->SetFont('Arial', '', 10);
  
-    $pdf->MultiCell(0, 6, "1. Surat Izin Penghunian Rumah Negara Golongan ".$persetujuan['nama_golonganpangkat']." ini hanya berlaku selama pemegangnya (yang berhak) bekerja\n".
+    $pdf->MultiCell(0, 6, "1. Surat Izin Penghunian Rumah Negara Golongan ".$persetujuan['golongan_rumah']." ini hanya berlaku selama pemegangnya (yang berhak) bekerja\n".
                           "    di lingkungan Pemerintah Kabupaten Tanah Laut.\n" .
                             "2. Pemegang Surat Izin Penghunian Rumah Negara, ini harus mengosongkan Rumah tersebut dan menyerahkan\n".
                             "    Rumah dalam keadaan lengkap kepada pejabat yang ditunjuk dalam waktu :\n" .
@@ -102,7 +102,7 @@ require_once APPPATH . 'ThirdParty/FPDF/fpdf.php';
                             "     yang berhak.\n" .
                             "11. Pelanggaran terhadap ketentuan-ketentuan dimaksud diatas dapat berakibat dibatalkannya Surat Izin Penghunian\n".
                             "     Rumah Negara.\n" .
-                            "12. Masa berlakunya Izin Penghunian Rumah Negara Golongan ".$persetujuan['nama_golonganpangkat']." adalah 2 (dua) tahun dan dapat\n".
+                            "12. Masa berlakunya Izin Penghunian Rumah Negara Golongan ".$persetujuan['golongan_rumah']." adalah 2 (dua) tahun dan dapat\n".
                             "     diperpanjang/dicabut setelah dilakukan evaluasi.\n" .
                             "13. Surat Izin Penghunian ini mulai berlaku pada tanggal ditetapkannya dengan ketentuan bahwa jika dikemudian hari\n".
                             "     ternyata ada kekeliruan, maka Surat Izin Penghunian ini dapat akan diperbaiki sebagaimana mestinya.\n\n" .
@@ -227,7 +227,7 @@ $pdf->Ln(5);
 $pdf->Cell(15, 20, "Pas \n Foto", 1, 1);
 $pdf->SetFont('Arial', '', 10);
 $pdf->Cell(10, 6,'', 0, 0);
-$pdf->SetFont('Arial', 'BU', 10);
+$pdf->SetFont('Arial', 'B', 10);
 $pdf->Cell(0, 6,'('.$persetujuan['gelar_depan'].' '.$persetujuan['nama'].', '.$persetujuan['gelar_belakang'].')', 0, 1);
 $pdf->SetFont('Arial', '', 8);
 $pdf->Cell(100, 6, "Tanda tangan pemegang Surat Izin Penghunian", 0, 0);

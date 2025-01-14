@@ -3,9 +3,9 @@
 
 // Start Generation Here
 function terbilang($number) {
-    // Handle leading zeros by converting to integer
+    // Konversi ke integer untuk memastikan input adalah angka
     $number = intval($number);
-    
+
     $huruf = array(
         '', 'Satu', 'Dua', 'Tiga', 'Empat', 'Lima', 'Enam', 'Tujuh', 'Delapan', 'Sembilan',
         'Sepuluh', 'Sebelas', 'Dua Belas', 'Tiga Belas', 'Empat Belas', 'Lima Belas', 'Enam Belas',
@@ -18,7 +18,7 @@ function terbilang($number) {
     } elseif ($number < 21) {
         return $huruf[$number];
     } elseif ($number < 100) {
-        return $huruf[20 + floor($number / 10)] . ' ' . terbilang($number % 10);
+        return $huruf[floor($number / 10) * 10] . ' ' . terbilang($number % 10);
     } elseif ($number < 200) {
         return 'Seratus ' . terbilang($number - 100);
     } elseif ($number < 1000) {
@@ -26,11 +26,22 @@ function terbilang($number) {
     } elseif ($number < 2000) {
         return 'Seribu ' . terbilang($number - 1000);
     } elseif ($number < 1000000) {
-        return terbilang(floor($number / 1000)) . ' Ribu ' . terbilang($number % 1000);
+        // Memisahkan ribuan dengan lebih cermat
+        $ribuan = floor($number / 1000);
+        $sisa = $number % 1000;
+
+        // Jika sisa adalah 0, hanya sebutkan "Ribu"
+        if ($sisa == 0) {
+            return terbilang($ribuan) . ' Ribu';
+        } else {
+            return terbilang($ribuan) . ' Ribu ' . terbilang($sisa);
+        }
     } elseif ($number < 1000000000) {
         return terbilang(floor($number / 1000000)) . ' Juta ' . terbilang($number % 1000000);
     }
 }
+
+
 
 function tanggalIndo($date) {
     $bulan = array(
@@ -46,7 +57,9 @@ function tanggalIndo($date) {
     return $tanggal . ' ' . $bulan[$bulanIndex] . ' ' . $tahun;
 }
 
-$hari = date('l');
+$hari = date("l", strtotime($persetujuan['tanggal_mulai']));
+// $hari = date('l');
+//2024-01-14
 if ($hari == 'Sunday') {
     $hari_tampil = 'Minggu';
 } elseif ($hari == 'Monday') {
@@ -278,7 +291,7 @@ $pdf->AddPage('P', 'A4'); // Add a page in portrait orientation A4
     $pdf->Cell(0, 6, 'Nomor: ', 0, 1, 'C');
 
     $pdf->Cell(15, 6, '', 0, 0);
-    $pdf->MultiCell(0, 6, 'Pada Hari ini ' . $hari_tampil.' tanggal '.terbilang(date('d')).' bulan '.terbilang(date('m')).' tahun '.terbilang(date('Y')).' masing-masing dibawah ini :');
+    $pdf->MultiCell(0, 6, 'Pada Hari ini ' . $hari_tampil.' tanggal '.terbilang(substr($persetujuan['tanggal_mulai'],8,2)).' bulan '.terbilang(substr($persetujuan['tanggal_mulai'],5,2)).' tahun '.terbilang(substr($persetujuan['tanggal_mulai'],0,4)).' masing-masing dibawah ini :');
 
     $pdf->Ln(3); // New line
     $pdf->SetFont('Arial', 'B', 10);
@@ -333,7 +346,7 @@ $pdf->AddPage('P', 'A4'); // Add a page in portrait orientation A4
     akan menuntut ganti rugi atas biaya perbaikan/perawatan Rumah Negara Milik Daerah dimaksud.');
 
 $pdf->Cell(15, 6, '', 0, 0);
-$pdf->MultiCell(0, 6, "5. Surat Izin Penghunian Rumah Negara Golongan ".$persetujuan['nama_golonganpangkat']." ini hanya berlaku selama pemegangnya (yang 
+$pdf->MultiCell(0, 6, "5. Surat Izin Penghunian Rumah Negara Golongan ".$persetujuan['golongan_rumah']." ini hanya berlaku selama pemegangnya (yang 
    berhak) bekerja di lingkungan Pemerintah Kabupaten Tanah Laut.", 0, 'J');
 // $pdf->Ln(3); // New line
 

@@ -43,7 +43,7 @@
                     <p>ASN</p>
                   </div>
                   <div class="icon">
-                    <i class="ion ion-bag"></i>
+                    <i class="fas fa-user-tie"></i>
                   </div>
                   <a href="/asn" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
@@ -58,7 +58,7 @@
                     <p>Aprover</p>
                   </div>
                   <div class="icon">
-                    <i class="ion ion-stats-bars"></i>
+                    <i class="fas fa-user-tie"></i>
                   </div>
                   <a href="/approver" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
@@ -73,7 +73,7 @@
                     <p>Permohonan</p>
                   </div>
                   <div class="icon">
-                    <i class="ion ion-person-add"></i>
+                    <i class="ion ion-clipboard"></i>
                   </div>
                   <a href="/pemohon_baru" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
@@ -88,7 +88,7 @@
                     <p>Persetujuan</p>
                   </div>
                   <div class="icon">
-                    <i class="ion ion-pie-graph"></i>
+                    <i class="fas fa-file-alt"></i>
                   </div>
                   <a href="/persetujuan" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
@@ -110,7 +110,7 @@
                     <p>Permohonan</p>
                   </div>
                   <div class="icon">
-                    <i class="ion ion-person-add"></i>
+                    <i class="ion ion-clipboard"></i>
                   </div>
                   <a href="/pemohon_baru" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
@@ -125,7 +125,7 @@
                     <p>Persetujuan</p>
                   </div>
                   <div class="icon">
-                    <i class="ion ion-pie-graph"></i>
+                    <i class="fas fa-file-alt"></i>
                   </div>
                   <a href="/persetujuan" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>

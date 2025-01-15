@@ -352,7 +352,7 @@ class PermohonanController extends Controller
             $this->PersetujuanModel->insert($dataPersetujuan);
 
 
-            $message = "<h1>Verifikasi Pengajuan</h1>Pengajuan atas nama ".$nama." <b>DITERIMA</b>."."Mohon untuk mengunduh surat permohonan, melengkapi dengan tanda tangan dan foto, lalu menyerahkan surat yang sudah lengkap ke kantor Badan Pengelolaan Keuangan dan Aset Daerah(BPKAD).";
+            $message = "<h1>Verifikasi Pengajuan</h1>Pengajuan atas nama ".$nama." <b>DITERIMA</b>."."Mohon untuk mengunduh surat permohonan, melengkapi dengan materai, tanda tangan dan foto, lalu menyerahkan surat yang sudah lengkap ke kantor BPKAD bagian Pengamanan & Pemanfaatan Aset (PPA).";
             $this->sendEmail($email, 'Verifikasi Pengajuan', $message);
             return redirect()->to('/pemohon_baru')->with('success', 'Data Permohonan berhasil diterima.');
         }

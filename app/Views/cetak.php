@@ -346,7 +346,7 @@ $pdf->AddPage('P', 'A4'); // Add a page in portrait orientation A4
     akan menuntut ganti rugi atas biaya perbaikan/perawatan Rumah Negara Milik Daerah dimaksud.');
 
 $pdf->Cell(15, 6, '', 0, 0);
-$pdf->MultiCell(0, 6, "5. Surat Izin Penghunian Rumah Negara Golongan ".$persetujuan['nama_golonganpangkat']." ini hanya berlaku selama pemegangnya (yang 
+$pdf->MultiCell(0, 6, "5. Surat Izin Penghunian Rumah Negara Golongan ".$persetujuan['golongan_rumah']." ini hanya berlaku selama pemegangnya (yang 
    berhak) bekerja di lingkungan Pemerintah Kabupaten Tanah Laut.", 0, 'J');
 // $pdf->Ln(3); // New line
 

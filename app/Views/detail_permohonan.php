@@ -36,6 +36,11 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                <tr>
+                                  <th>Nama Pemohon</th>
+                                     <td><?= htmlspecialchars($permohonan['gelar_depan'] . '. ' . $permohonan['nama'] . ', ' . $permohonan['gelar_belakang']) ?></td>
+                                        </tr>
+
                                     <tr>
                                         <th>NIP</th>
                                         <td><?= htmlspecialchars($permohonan['nip']) ?></td>

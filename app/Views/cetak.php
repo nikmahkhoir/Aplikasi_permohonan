@@ -130,7 +130,7 @@ require_once APPPATH . 'ThirdParty/FPDF/fpdf.php';
     $pdf->Cell(0, 6, 'Kabupaten Tanah Laut', 0, 1, 'C');
     $pdf->Ln(20);
     $pdf->SetFont('Arial', 'BU', 10);
-    $pdf->Cell(100, 6, $persetujuan['gelar_depan'].'. '.$persetujuan['nama'].', '.$persetujuan['gelar_belakang'], 0, 0,'C');
+    $pdf->Cell(100, 6, $persetujuan['gelar_depan'].' '.$persetujuan['nama'].', '.$persetujuan['gelar_belakang'], 0, 0,'C');
     // $pdf->Cell(0, 6, $persetujuan['nama_app'], 0, 1, 'C');
     $pdf->Cell(0, 6, $persetujuan['kepala_skpd'], 0, 1, 'C');
     $pdf->SetFont('Arial', '', 10);
@@ -241,7 +241,7 @@ $pdf->Cell(15, 20, "Pas \n Foto", 1, 1);
 $pdf->SetFont('Arial', '', 10);
 $pdf->Cell(10, 6,'', 0, 0);
 $pdf->SetFont('Arial', 'B', 10);
-$pdf->Cell(0, 6,'('.$persetujuan['gelar_depan'].'. '.$persetujuan['nama'].', '.$persetujuan['gelar_belakang'].')', 0, 1);
+$pdf->Cell(0, 6,'('.$persetujuan['gelar_depan'].' '.$persetujuan['nama'].', '.$persetujuan['gelar_belakang'].')', 0, 1);
 $pdf->SetFont('Arial', '', 8);
 $pdf->Cell(100, 6, "Tanda tangan pemegang Surat Izin Penghunian", 0, 0);
 $pdf->SetFont('Arial', '', 10);
@@ -438,7 +438,7 @@ $pdf->Cell(100, 6,'Materai', 0, 1);
 $pdf->Cell(100, 6,'yang berlaku', 0, 1);
 
 $pdf->SetFont('Arial', '', 10);
-$pdf->Cell(100, 6, $persetujuan['gelar_depan'].'. '.$persetujuan['nama'].', '.$persetujuan['gelar_belakang'], 0, 0,'C');
+$pdf->Cell(100, 6, $persetujuan['gelar_depan'].' '.$persetujuan['nama'].', '.$persetujuan['gelar_belakang'], 0, 0,'C');
 $pdf->Cell(100, 6, $persetujuan['kepala_skpd'] ,0, 1,'C');
 
 $pdf->Cell(100, 6, "NIP. ".$persetujuan['nip'], 0, 0,'C');

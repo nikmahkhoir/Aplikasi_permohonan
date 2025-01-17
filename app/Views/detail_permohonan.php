@@ -38,7 +38,7 @@
                                 <tbody>
                                 <tr>
                                   <th>Nama Pemohon</th>
-                                     <td><?= htmlspecialchars($permohonan['gelar_depan'] . '. ' . $permohonan['nama'] . ', ' . $permohonan['gelar_belakang']) ?></td>
+                                     <td><?= htmlspecialchars($permohonan['gelar_depan'] . ' ' . $permohonan['nama'] . ', ' . $permohonan['gelar_belakang']) ?></td>
                                         </tr>
 
                                     <tr>

@@ -51,20 +51,16 @@
                   </tr>
                   </thead>
                   <tbody>
-                  <?php foreach ($alamatrumahdinas as $item):
-                             $no=1;
-                    ?>
-                
-                  <tr>
-                  <td><?= $no++; ?></td>
-                 
-                    <td><?= htmlspecialchars($item['nama_alamatrumahdinas']) ?></td>
-                    <td>
+                  <?php foreach ($alamatrumahdinas as $index => $item): ?>
+                                        <tr>
+                                            <td><?= $index + 1 ?></td>
+                                            <td><?= htmlspecialchars($item['nama_alamatrumahdinas']) ?></td>
+                                            <td>
                       <a href="/alamatrumahdinas/edit/<?= $item['id_alamatrumahdinas'] ?>" class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></a>
                       <a href="/alamatrumahdinas/delete/<?= $item['id_alamatrumahdinas'] ?>" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>
                     </td>
                   </tr>
-                  <?php endforeach; ?>
+                                    <?php endforeach; ?>
                   </tbody>
                 
                 </table>

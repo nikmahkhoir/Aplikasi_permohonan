@@ -4,12 +4,12 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Input Permohonan</h1>
+                    <h1>Edit Permohonan</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Input Permohonan</li>
+                        <li class="breadcrumb-item active">Edit Permohonan</li>
                     </ol>
                 </div>
             </div>
@@ -24,17 +24,17 @@
                 <div class="col-8">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">Tambah Permohonan</h3>
+                            <h3 class="card-title">Edit Permohonan</h3>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
-                            <form action="/permohonan/store" method="post" enctype="multipart/form-data">
+                            <form action="/proses_edit_detail_permohonan/<?= $permohonan['id_pemohon'] ?>" method="post" enctype="multipart/form-data">
                                 <div class="form-group">
                                     <label for="id_asn">ASN <span class="text-danger">*</span></label>
                                     <select class="form-control select2bs4" id="id_asn" name="id_asn" required onchange="updatePemohonDetails(this)">
                                         <option value="" disabled selected>Pilih ASN</option>
                                         <?php foreach ($asn as $item): ?>
-                                            <option value="<?= htmlspecialchars($item['id_asn']) ?>"><?= htmlspecialchars($item['nip']).' - '.htmlspecialchars($item['gelar_depan']).' '.htmlspecialchars($item['nama']).', '.htmlspecialchars($item['gelar_belakang']) ?></option>
+                                            <option value="<?= htmlspecialchars($item['id_asn']) ?>" ><?= htmlspecialchars($item['nip']).' - '.htmlspecialchars($item['gelar_depan']).' '.htmlspecialchars($item['nama']).(!empty($item['gelar_belakang']) ? ', '.htmlspecialchars($item['gelar_belakang']) : '') ?></option>
                                         <?php endforeach; ?>
                                     </select>
                                 </div>
@@ -63,87 +63,117 @@
                                     <label for="gaji_pokok">Gaji Pokok <span class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="gaji_pokok_pemohon_display" name="gaji_pokok" readonly required>
                                 </div>
+
                                 <div class="form-group">
                                     <label for="instansi">Instansi Pemohon <span class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="instansi_pemohon_display" name="instansi" required readonly>
                                 </div>
+
                                 <div class="form-group">
                                     <label for="instansi">Golongan Pangkat <span class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="golongan_pangkat_pemohon_display" name="instansi" required readonly>
                                 </div>
+
                                 <div class="form-group">
                                     <label for="instansi">Jumlah Keluarga <span class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="keluarga_pemohon_display" name="instansi" required readonly>
                                 </div>
+
                                 <div class="form-group">
                                     <label for="id_asn">Alamat Rumah Dinas <span class="text-danger">*</span></label>
-                                    <select class="form-control select2bs4" id="id_alamatrumahdinas" name="id_alamatrumahdinas" required >
+                                    <select class="form-control select2bs4" id="id_alamatrumahdinas" name="id_alamatrumahdinas" required>
                                         <option value="" disabled selected>Pilih Alamat Rumah Dinas</option>
                                         <?php foreach ($alamatrumahdinas as $item): ?>
-                                            <option value="<?= htmlspecialchars($item['id_alamatrumahdinas']) ?>"><?= htmlspecialchars($item['nama_alamatrumahdinas']) ?></option>
+                                            <option value="<?= htmlspecialchars($item['id_alamatrumahdinas']) ?>" <?= ($item['id_alamatrumahdinas'] == $permohonan['id_alamatrumahdinas']) ? 'selected' : '' ?>><?= htmlspecialchars($item['nama_alamatrumahdinas']) ?></option>
                                         <?php endforeach; ?>
                                     </select>
                                 </div>
+
                                 <div class="form-group">
                                     <label for="nomor_rumah_dinas">Nomor Rumah Dinas <span class="text-danger">*</span></label>
-                                    <input type="text" class="form-control" id="nomor_rumah_dinas" name="nomor_rumah_dinas" required>
+                                    <input type="text" class="form-control" id="nomor_rumah_dinas" name="nomor_rumah_dinas" value="<?= $permohonan['nomor_rumah_dinas'] ?>" required>
                                 </div>
+
                                 <div class="form-group">
                                     <label for="bersedia_menaati_peraturan">Apakah Bersedia Menaati Peraturan <span class="text-danger">*</span></label>
                                     <div>
                                         <label>
-                                            <input type="radio" name="bersedia_menaati_peraturan" value="ya" checked> ya
+                                            <input type="radio" name="bersedia_menaati_peraturan" value="ya" <?= ($permohonan['bersedia_menaati_peraturan'] == 'ya') ? 'checked' : '' ?>> ya
                                         </label>
                                         <label>
-                                            <input type="radio" name="bersedia_menaati_peraturan" value="tidak"> tidak
+                                            <input type="radio" name="bersedia_menaati_peraturan" value="tidak" <?= ($permohonan['bersedia_menaati_peraturan'] == 'tidak') ? 'checked' : '' ?>> tidak
                                         </label>
                                     </div>
                                 </div>
+
                                 <div class="form-group">
                                     <label for="rumah_ditempati">Apakah Rumah Dinas Pernah Ditempati <span class="text-danger">*</span></label>
                                     <select class="form-control" id="rumah_ditempati" name="rumah_ditempati" required>
-                                        <option value="" disabled selected>Pilih Opsi</option>
-                                        <option value="Ya">Ya</option>
-                                        <option value="Tidak">Tidak</option>
+                                        <option value="" disabled>Pilih Opsi</option>
+                                        <option value="Ya" <?= $permohonan['rumah_ditempati'] == 'Ya' ? 'selected' : '' ?>>Ya</option>
+                                        <option value="Tidak" <?= $permohonan['rumah_ditempati'] == 'Tidak' ? 'selected' : '' ?>>Tidak</option>
                                     </select>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="tanggal_ditempati">Tanggal Ditempati</label>
-                                    <input type="date" class="form-control" id="tanggal_ditempati" name="tanggal_ditempati">
+                                    <input type="date" class="form-control" id="tanggal_ditempati" name="tanggal_ditempati" value="<?= $permohonan['tanggal_ditempati'] ?>">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="keterangan">Keterangan</label>
-                                    <textarea class="form-control" id="keterangan" name="keterangan">-</textarea>
+                                    <textarea class="form-control" id="keterangan" name="keterangan"><?= $permohonan['keterangan'] ?></textarea>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="file_sk">File SK Terakhir <span class="text-danger">*</span></label>
-                                    <input type="file" class="form-control" id="file_sk" accept="application/pdf" name="file_sk" required>
+                                    <input type="file" class="form-control" id="file_sk" accept="application/pdf" name="file_sk">
+                                    <?php if($permohonan['file_sk']): ?>
+                                        <small><a href="data:application/pdf;base64,<?= $permohonan['file_sk']; ?>" download="Surat_Keterangan.pdf">Unduh Surat Keterangan</a></small>
+                                    <?php endif; ?>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="file_ktp">File KTP <span class="text-danger">*</span></label>
-                                    <input type="file" class="form-control" id="file_ktp" accept=".jpg,.png,.jpeg" name="file_ktp" required>
+                                    <input type="file" class="form-control" id="file_ktp" accept=".jpg,.png,.jpeg" name="file_ktp">
+                                    <?php if (!empty($permohonan['file_ktp'])): ?>
+                                            <img src="data:image/jpg;base64,<?= $permohonan['file_ktp']; ?>" alt="KTP" height="80px" width="80px">
+                                        <?php else: ?>
+                                            Tidak ada file KTP
+                                        <?php endif; ?>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="file_kk">File KK <span class="text-danger">*</span></label>
-                                    <input type="file" class="form-control" id="file_kk" accept=".jpg,.png,.jpeg" name="file_kk" required>
+                                    <input type="file" class="form-control" id="file_kk" accept=".jpg,.png,.jpeg" name="file_kk">
+                                    <?php if (!empty($permohonan['file_kk'])): ?>
+                                            <img src="data:image/jpg;base64,<?= $permohonan['file_kk']; ?>" alt="File KK" height="80px" width="80px">
+                                        <?php else: ?>
+                                            Tidak ada file KK
+                                        <?php endif; ?>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="file_pas_foto">File Pas Foto Berwarna Ukuran 2x3 <span class="text-danger">*</span></label>
-                                    <input type="file" class="form-control" id="file_pas_foto" accept=".jpg,.png,.jpeg" name="file_pas_foto" required>
+                                    <input type="file" class="form-control" id="file_pas_foto" accept=".jpg,.png,.jpeg" name="file_pas_foto">
+                                    <?php if (!empty($permohonan['file_pas_foto'])): ?>
+                                            <img src="data:image/jpg;base64,<?= $permohonan['file_pas_foto']; ?>" alt="File Pas Foto" height="80px" width="80px">
+                                        <?php else: ?>
+                                            Tidak ada file Pas Foto
+                                        <?php endif; ?>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="file_foto_rumah">File Foto Rumah Bangunan Asli Dari Depan Dan Bangunan Tambahan <span class="text-danger">*</span></label>
-                                    <input type="file" class="form-control" id="file_foto_rumah" accept=".jpg,.png,.jpeg" name="file_foto_rumah" required>
+                                    <input type="file" class="form-control" id="file_foto_rumah" accept=".jpg,.png,.jpeg" name="file_foto_rumah">
+                                    <?php if (!empty($permohonan['file_foto_rumah'])): ?>
+                                            <img src="data:image/jpg;base64,<?= $permohonan['file_foto_rumah']; ?>" alt="File Foto Rumah" height="80px" width="80px">
+                                        <?php else: ?>
+                                            Tidak ada file Foto Rumah
+                                        <?php endif; ?>
                                 </div>
 
-                                <button type="submit" class="btn btn-success">Simpan Data</button>
+                                <button type="submit" class="btn btn-success">Update Data</button>
                                 <a href="/permohonan" class="btn btn-danger">Batal</a>
                             </form>
                         </div>

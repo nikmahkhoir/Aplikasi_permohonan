@@ -83,6 +83,10 @@ $routes->get('/view/data-permohonan', 'PermohonanController::dataPermohonan');
 $routes->get('/permohonan/edit/(:num)', 'PermohonanController::edit/$1');
 $routes->post('/permohonan/update/(:num)', 'PermohonanController::update/$1');
 $routes->get('/permohonan/delete/(:num)', 'PermohonanController::delete/$1');
+$routes->get('/permohonan_detail/edit/(:num)', 'PermohonanController::detail_edit/$1');
+$routes->post('/proses_edit_detail_permohonan/(:num)', 'PermohonanController::proses_edit_detail_permohonan/$1');
+
+
 
 $routes->get('/permohonan/cetak/(:num)', 'PermohonanController::cetak/$1');
 
@@ -155,8 +159,3 @@ $routes->get('download/ktp/(:num)', 'FileController::downloadKTP/$1');
 $routes->get('download/kk/(:num)', 'FileController::downloadKK/$1');
 $routes->get('download/pas_foto/(:num)', 'FileController::downloadPasFoto/$1');
 $routes->get('download/foto_rumah/(:num)', 'FileController::downloadFotoRumah/$1');
-
-
-
-
-

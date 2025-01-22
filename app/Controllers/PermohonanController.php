@@ -267,6 +267,7 @@ class PermohonanController extends Controller
             ->join('permohonan', 'permohonan.id_asn = asn.id_asn')
             ->where('permohonan.id_pemohon', $id)
             ->countAllResults();
+            // var_dump('permohonan');exit;
         $data['permohonan'] = $this->PermohonanModel
             ->select('permohonan.*, alamatrumahdinas.nama_alamatrumahdinas, asn.*, golonganpangkat.nama_golonganpangkat,instansipemohon.*')
             ->join('alamatrumahdinas', 'alamatrumahdinas.id_alamatrumahdinas = permohonan.id_alamatrumahdinas', 'left')
@@ -274,7 +275,6 @@ class PermohonanController extends Controller
             ->join('golonganpangkat', 'golonganpangkat.id_golonganpangkat = asn.id_golonganpangkat', 'left')
             ->join('instansipemohon', 'instansipemohon.id_instansipemohon = asn.id_instansipemohon', 'left')
             ->find($id);
-            // var_dump($data['permohonan']);exit;
 
         if (!$data['permohonan']) {
             // Jika data tidak ditemukan, kembalikan ke halaman pemohon baru
@@ -328,7 +328,7 @@ class PermohonanController extends Controller
         ->join('login','login.id_login=asn.id_login')
         ->find($id);
         $email=$data['username'];
-        $nama=$data['gelar_depan'].' '.$data['nama'].', '.$data['gelar_belakang'];
+        $nama=$data['gelar_depan'].' '.$data['nama'].(!empty($data['gelar_belakang']) ? ', '.$data['gelar_belakang'] : '');
         
         // var_dump($email);exit;
         if (null !== $this->request->getPost('terima')) {
@@ -383,5 +383,113 @@ class PermohonanController extends Controller
             'id_approver'=>$approver['id_approver']
         ]);
         return redirect()->to('/pemohon_baru')->with('success', 'Data Permohonan berhasil ditolak.');
+    }
+    public function detail_edit($id)
+    {
+        $data['permohonan'] = $this->PermohonanModel->find($id);
+        if (session('level')=='asn') {
+            $id_login=session('id_login');
+            $data['asn'] = $this->AsnModel->where('id_login',$id_login)->findAll();
+        }else{
+
+            $data['asn'] = $this->AsnModel->findAll();
+        }
+        $data['alamatrumahdinas'] = $this->AlamatRumahDinasModel->findAll(); // Get all instansi pemohon for the create view
+
+        if (empty($data['permohonan'])) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Data Permohonan tidak ditemukan');
+        }
+
+        // return view('detail_permohonan_edit', $data);
+        echo view('layout/header'); 
+        echo view('layout/menu');
+        echo view('detail_permohonan_edit', $data);
+        echo view('layout/footer');
+    }
+    public function proses_edit_detail_permohonan($id)
+    {
+        // Check if nomor_rumah_dinas already exists in permohonan
+        $id_asn = $this->request->getPost('id_asn');
+        $cekKK = $this->AsnModel->where('id_asn', $id_asn)->first();
+
+        // Cek apakah ada permohonan dari keluarga yang sudah diterima
+        $valKK = $this->PermohonanModel
+                ->join('asn','asn.id_asn=permohonan.id_asn')
+                ->where('permohonan.id_asn', $id_asn)
+                ->where('no_kk',$cekKK['no_kk'])
+                ->where('status','terima')
+                ->first();
+        
+        // Jika ada permohonan dari keluarga yang sudah diterima
+        if ($valKK) {
+            // Jika nomor KK sama, berarti dari keluarga yang sama
+            if ($cekKK['no_kk']==$valKK['no_kk']) {
+                // Cek apakah sudah ada permohonan yang diterima
+                if($valKK['status'] == 'terima') {
+                    return redirect()->to('/pemohon_baru')->with('error', 'Proses permohonan gagal. Keluarga anda sudah memiliki permohonan yang diterima.');
+                }
+            }
+        }
+
+        // Check if permohonan belongs to current user
+        $permohonan = $this->PermohonanModel->find($id);
+        if (session('level') == 'asn') {
+            $id_login = session('id_login');
+            $asn = $this->AsnModel->where('id_login', $id_login)->first();
+            if ($permohonan['id_asn'] != $asn['id_asn']) {
+                return redirect()->to('/pemohon_baru')->with('error', 'Proses permohonan gagal. Anda tidak memiliki akses untuk mengedit permohonan ini.');
+            }
+        }
+
+        $nomorRumahDinas = $this->request->getPost('nomor_rumah_dinas');
+        $existingPermohonan = $this->PermohonanModel->where('nomor_rumah_dinas', $nomorRumahDinas)->first();
+
+        if ($existingPermohonan && $existingPermohonan['id_pemohon'] != $id) {
+            return redirect()->to('/pemohon_baru')->with('error', 'Proses permohonan gagal. Nomor rumah dinas sudah ada di permohonan.');
+        }
+
+        // Get existing data
+        $existingData = $this->PermohonanModel->find($id);
+
+        // Handle file uploads
+        $fileSK = $this->request->getFile('file_sk');
+        $fileKTP = $this->request->getFile('file_ktp');
+        $fileKK = $this->request->getFile('file_kk');
+        $filePasFoto = $this->request->getFile('file_pas_foto');
+        $fileFotoRumah = $this->request->getFile('file_foto_rumah');
+
+        // Prepare update data
+        $updateData = [
+            'id_asn' => $this->request->getPost('id_asn'),
+            'bersedia_menaati_peraturan' => $this->request->getPost('bersedia_menaati_peraturan'),
+            'id_alamatrumahdinas' => $this->request->getPost('id_alamatrumahdinas'),
+            'nomor_rumah_dinas' => $this->request->getPost('nomor_rumah_dinas'),
+            'rumah_ditempati' => $this->request->getPost('rumah_ditempati'),
+            'tanggal_ditempati' => $this->request->getPost('tanggal_ditempati'),
+            'keterangan' => $this->request->getPost('keterangan'),
+            'status' => 'tunggu'
+        ];
+
+        // Only update file fields if new files are uploaded
+        if ($fileSK && $fileSK->isValid() && !$fileSK->hasMoved()) {
+            $updateData['file_sk'] = base64_encode(file_get_contents($fileSK->getTempName()));
+        }
+        if ($fileKTP && $fileKTP->isValid() && !$fileKTP->hasMoved()) {
+            $updateData['file_ktp'] = base64_encode(file_get_contents($fileKTP->getTempName()));
+        }
+        if ($fileKK && $fileKK->isValid() && !$fileKK->hasMoved()) {
+            $updateData['file_kk'] = base64_encode(file_get_contents($fileKK->getTempName()));
+        }
+        if ($filePasFoto && $filePasFoto->isValid() && !$filePasFoto->hasMoved()) {
+            $updateData['file_pas_foto'] = base64_encode(file_get_contents($filePasFoto->getTempName()));
+        }
+        if ($fileFotoRumah && $fileFotoRumah->isValid() && !$fileFotoRumah->hasMoved()) {
+            $updateData['file_foto_rumah'] = base64_encode(file_get_contents($fileFotoRumah->getTempName()));
+        }
+
+        // Update the record
+        $this->PermohonanModel->update($id, $updateData);
+
+        return redirect()->to('/pemohon_baru')->with('success', 'Data Permohonan berhasil diperbarui.');
     }
 }

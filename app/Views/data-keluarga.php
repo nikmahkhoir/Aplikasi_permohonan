@@ -55,7 +55,7 @@
                   <th>Nama</th>
                   <th>Jenis Kelamin</th>
                   <th>Usia</th>
-                  <th>Posisi</th>
+                  <th>Status Hubungan dalam Keluarga</th>
                   <th>Aksi</th>
                   </tr>
                   </thead>

@@ -47,7 +47,7 @@
                                 <input type="number" class="form-control" id="usia" name="usia" value="<?php echo $keluarga['usia']; ?>" required>
                             </div>
                             <div class="form-group">
-                                <label for="posisi">Posisi <span class="text-danger">*</span></label>
+                                <label for="posisi">Status Hubungan dalam Keluarga (Suami / Istri / Anak) <span class="text-danger">*</span></label>
                                 <input type="text" class="form-control" id="posisi" name="posisi" value="<?php echo $keluarga['posisi']; ?>" required>
                             </div>
                             <button type="submit" class="btn btn-success">Update Data</button>

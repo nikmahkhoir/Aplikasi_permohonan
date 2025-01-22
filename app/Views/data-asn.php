@@ -71,7 +71,7 @@
                   <tr>
                   <td><?= $no++; ?></td>
                  
-                    <td><?= htmlspecialchars($item['gelar_depan']).' '.htmlspecialchars($item['nama']).', '.htmlspecialchars($item['gelar_belakang']) ?></td>
+                    <td><?= htmlspecialchars($item['gelar_depan']).' '.htmlspecialchars($item['nama']).(!empty($item['gelar_belakang']) ? ', '.htmlspecialchars($item['gelar_belakang']) : '') ?></td>
                     <td><?= htmlspecialchars($item['nip']) ?></td>
                     <td><?= htmlspecialchars($item['no_ktp']) ?></td>
                     <td><?= htmlspecialchars($item['no_kk']) ?></td>

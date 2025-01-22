@@ -146,6 +146,7 @@ class PersetujuanController extends Controller
         ->join('alamatrumahdinas','alamatrumahdinas.id_alamatrumahdinas=permohonan.id_alamatrumahdinas','left')
         ->where('id_persetujuan',$id)
         ->first();
+        // var_dump($data['persetujuan']);exit;
         $id_asn = $data['persetujuan']['id_asn'];
         $data['keluarga'] = $this->KeluargaModel->where('id_asn', $id_asn)->findAll();
         $data['jumlah_keluarga'] = count($data['keluarga']);
@@ -225,7 +226,7 @@ class PersetujuanController extends Controller
             // var_dump($data);exit;
             $data['jumlah_keluarga'] = count($data['keluarga']);
             $sheet->setCellValue('A' . $row, $no++);
-            $sheet->setCellValue('B' . $row, $persetujuan['gelar_depan'].' '.$persetujuan['nama'].', '.$persetujuan['gelar_belakang']);
+            $sheet->setCellValue('B' . $row, $persetujuan['gelar_depan'].' '.$persetujuan['nama'].(!empty($persetujuan['gelar_belakang']) ? ', '.$persetujuan['gelar_belakang'] : ''));
             $sheet->setCellValue('C' . $row, "'".$persetujuan['nip']);
             $sheet->setCellValue('D' . $row, "'".$persetujuan['no_ktp']);
             $sheet->setCellValue('E' . $row, "'".$persetujuan['no_kk']);

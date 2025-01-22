@@ -38,7 +38,7 @@
                                 <tbody>
                                 <tr>
                                   <th>Nama Pemohon</th>
-                                     <td><?= htmlspecialchars($permohonan['gelar_depan'] . ' ' . $permohonan['nama'] . ', ' . $permohonan['gelar_belakang']) ?></td>
+                                     <td><?= htmlspecialchars($permohonan['gelar_depan'] . ' ' . $permohonan['nama'] . (!empty($permohonan['gelar_belakang']) ? ', ' . $permohonan['gelar_belakang'] : '')) ?></td>
                                         </tr>
 
                                     <tr>
@@ -198,8 +198,9 @@
                                 }
 
                                 ?>
-                                
+                                <br>
                                 <a href="/pemohon_baru" class="btn btn-warning">Kembali</a>
+                                <a href="/permohonan_detail/edit/<?= $permohonan['id_pemohon'] ?>" class="btn btn-primary">Edit</a>
                             </form>
                         </div>
                         <!-- /.card-body -->
@@ -226,7 +227,7 @@
         const form = document.querySelector('form');
         const formData = new FormData(form);
         for (const [key, value] of formData.entries()) {
-            console.log(`${key}: ${value}`);
+            console.log(${key}: ${value});
         }
         formData.append('action', action);
 
@@ -240,13 +241,13 @@
         })
         .then(response => {
             if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
+                throw new Error(HTTP error! status: ${response.status});
             }
             return response.json();
         })
         .then(data => {
             if (data.success) {
-                alert(`Permohonan berhasil ${action === 'accept' ? 'diterima' : 'ditolak'}!`);
+                alert(Permohonan berhasil ${action === 'accept' ? 'diterima' : 'ditolak'}!);
                 window.location.href = '/pemohon_baru';
             } else {
                 alert('Terjadi kesalahan: ' + data.message);

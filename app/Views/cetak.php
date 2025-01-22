@@ -430,7 +430,7 @@ $pdf->Cell(100, 6, "PIHAK KESATU", 0, 1,'C');
 $pdf->Cell(100, 6, $persetujuan['jabatan'].' pada '.$persetujuan['nama_instansipemohon'], 0, 0,'C');
 $pdf->Cell(100, 6, "Pj. Sekretaris Daerah", 0, 1,'C');
 
-$pdf->Cell(100, 6,'Pelaihari,', 0, 0,'C');
+$pdf->Cell(100, 6,'', 0, 0,'C');
 $pdf->Cell(100, 6, "Kab. Tanah Laut,", 0, 1,'C');
 $pdf->Ln(5); // New line
 $pdf->SetFont('Arial', '', 7);

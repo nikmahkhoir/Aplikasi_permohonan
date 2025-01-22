@@ -119,7 +119,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="file_sk">File SK Terakhir <span class="text-danger">*</span></label>
+                                    <label for="file_sk">File SK Kepegawaian Terakhir <span class="text-danger">*</span></label>
                                     <input type="file" class="form-control" id="file_sk" accept="application/pdf" name="file_sk" required>
                                 </div>
 

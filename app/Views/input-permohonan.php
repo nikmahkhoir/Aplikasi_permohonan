@@ -20,7 +20,7 @@
     <section class="content">
         <div class="container-fluid">
             <div class="row">
-            <div class="col-2"></div>
+                <div class="col-2"></div>
                 <div class="col-8">
                     <div class="card">
                         <div class="card-header">
@@ -28,6 +28,15 @@
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
+                               <!-- Tambahkan pesan error di atas form -->
+                            <?php if (session()->getFlashdata('error')): ?>
+                                <div class="alert alert-danger">
+                                    <?= session()->getFlashdata('error') ?>
+                                </div>
+                            <?php endif; ?>
+
+                            <form action="/permohonan/store" method="post" enctype="multipart/form-data">
+                                <?= csrf_field() ?>
                             <form action="/permohonan/store" method="post" enctype="multipart/form-data">
                                 <div class="form-group">
                                     <label for="id_asn">ASN <span class="text-danger">*</span></label>
@@ -118,28 +127,34 @@
                                     <textarea class="form-control" id="keterangan" name="keterangan">-</textarea>
                                 </div>
 
+
                                 <div class="form-group">
                                     <label for="file_sk">File SK Kepegawaian Terakhir <span class="text-danger">*</span></label>
+                                    <small class="form-text text-muted">Upload 1 File PDF. Ukuran File Maks 100KB.</small>
                                     <input type="file" class="form-control" id="file_sk" accept="application/pdf" name="file_sk" required>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="file_ktp">File KTP <span class="text-danger">*</span></label>
+                                    <small class="form-text text-muted">Upload 1 Foto JPG, PNG, atau JPEG. Ukuran File Maks 120KB.</small>
                                     <input type="file" class="form-control" id="file_ktp" accept=".jpg,.png,.jpeg" name="file_ktp" required>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="file_kk">File KK <span class="text-danger">*</span></label>
+                                    <small class="form-text text-muted">Upload 1 Foto JPG, PNG, atau JPEG. Ukuran File Maks 120KB.</small>
                                     <input type="file" class="form-control" id="file_kk" accept=".jpg,.png,.jpeg" name="file_kk" required>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="file_pas_foto">File Pas Foto Berwarna Ukuran 2x3 <span class="text-danger">*</span></label>
+                                    <small class="form-text text-muted">Upload 1 Foto JPG, PNG, atau JPEG. Ukuran File Maks 120KB.</small>
                                     <input type="file" class="form-control" id="file_pas_foto" accept=".jpg,.png,.jpeg" name="file_pas_foto" required>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="file_foto_rumah">File Foto Rumah Bangunan Asli Dari Depan Dan Bangunan Tambahan <span class="text-danger">*</span></label>
+                                    <small class="form-text text-muted">Upload 1 Foto JPG, PNG, atau JPEG. Ukuran File Maks 120KB.</small>
                                     <input type="file" class="form-control" id="file_foto_rumah" accept=".jpg,.png,.jpeg" name="file_foto_rumah" required>
                                 </div>
 
@@ -159,7 +174,6 @@
     </section>
     <!-- /.content -->
 </div>
-
 <script>
 function updatePemohonDetails(selectElement) {
     const asnId = selectElement.value;

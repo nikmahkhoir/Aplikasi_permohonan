@@ -119,51 +119,100 @@ class PermohonanController extends Controller
     }
 
     public function store()
-    {
-        // Check if nomor_rumah_dinas already exists in permohonan
+{
+    // Check if nomor_rumah_dinas already exists in permohonan
+    $id_asn = $this->request->getPost('id_asn');
+    $cekKK = $this->AsnModel->where('id_asn', $id_asn)->first();
 
-        $id_asn = $this->request->getPost('id_asn');
-        $cekKK = $this->AsnModel->where('id_asn', $id_asn)->first();
+    $valKK = $this->PermohonanModel
+        ->join('asn', 'asn.id_asn=permohonan.id_asn')
+        ->where('permohonan.id_asn', $id_asn)
+        ->where('no_kk', $cekKK['no_kk'])
+        ->where('status', 'terima')
+        ->first();
 
-        $id_asn = $this->request->getPost('id_asn');
-        $valKK = $this->PermohonanModel
-                ->join('asn','asn.id_asn=permohonan.id_asn')
-                ->where('permohonan.id_asn', $id_asn)
-                ->where('no_kk',$cekKK['no_kk'])
-                ->where('status','terima')
-                ->first();
-        
-        if ($valKK) {
-            
-            if ($cekKK['no_kk']==$valKK['no_kk']) {
-                return redirect()->to('/pemohon_baru')->with('error', 'Proses permohonan gagal. Keluarga anda sudah melakukan permohonan permohonan.');
-            }
+    if ($valKK) {
+        if ($cekKK['no_kk'] == $valKK['no_kk']) {
+            return redirect()->to('/pemohon_baru')->with('error', 'Proses permohonan gagal. Keluarga anda sudah melakukan permohonan permohonan.');
         }
+    }
 
-        $nomorRumahDinas = $this->request->getPost('nomor_rumah_dinas');
-        $existingPermohonan = $this->PermohonanModel->where('nomor_rumah_dinas', $nomorRumahDinas)->first();
+    $nomorRumahDinas = $this->request->getPost('nomor_rumah_dinas');
+    $existingPermohonan = $this->PermohonanModel->where('nomor_rumah_dinas', $nomorRumahDinas)->first();
 
-        if ($existingPermohonan) {
-            return redirect()->to('/pemohon_baru')->with('error', 'Proses permohonan gagal. Nomor rumah dinas sudah ada di permohonan.');
-        }
+    if ($existingPermohonan) {
+        return redirect()->to('/pemohon_baru')->with('error', 'Proses permohonan gagal. Nomor rumah dinas sudah ada di permohonan.');
+    }
 
-        
-
-    
-        $fileSK = $this->request->getFile('file_sk');
+    // Ambil file yang diupload
+    $fileSK = $this->request->getFile('file_sk');
     $fileKTP = $this->request->getFile('file_ktp');
     $fileKK = $this->request->getFile('file_kk');
     $filePasFoto = $this->request->getFile('file_pas_foto');
     $fileFotoRumah = $this->request->getFile('file_foto_rumah');
 
-    // Konversi file ke Base64
-    $fileSKBase64 = $fileSK && $fileSK->isValid() && !$fileSK->hasMoved() ? base64_encode(file_get_contents($fileSK->getTempName())) : null;
-    $fileKTPBase64 = $fileKTP && $fileKTP->isValid() && !$fileKTP->hasMoved() ? base64_encode(file_get_contents($fileKTP->getTempName())) : null;
-    $fileKKBase64 = $fileKK && $fileKK->isValid() && !$fileKK->hasMoved() ? base64_encode(file_get_contents($fileKK->getTempName())) : null;
-    $filePasFotoBase64 = $filePasFoto && $filePasFoto->isValid() && !$filePasFoto->hasMoved() ? base64_encode(file_get_contents($filePasFoto->getTempName())) : null;
-    $fileFotoRumahBase64 = $fileFotoRumah && $fileFotoRumah->isValid() && !$fileFotoRumah->hasMoved() ? base64_encode(file_get_contents($fileFotoRumah->getTempName())) : null;
+    // Ukuran maksimum file dalam byte
+    $maxFileSizeSK = 102400; // 100 KB untuk SK
+    $maxFileSizeFoto = 122880; // 120 KB untuk Foto
 
-    // var_dump($this->request->getPost());exit;
+    // Variabel untuk menyimpan hasil validasi
+    $fileSKBase64 = null;
+    $fileKTPBase64 = null;
+    $fileKKBase64 = null;
+    $filePasFotoBase64 = null;
+    $fileFotoRumahBase64 = null;
+    $errors = [];
+
+    // Validasi file SK
+    if ($fileSK && $fileSK->isValid() && !$fileSK->hasMoved()) {
+        if ($fileSK->getSize() > $maxFileSizeSK) {
+            $errors[] = 'File SK terlalu besar. Maksimal ukuran file adalah 100 KB.';
+        } else {
+            $fileSKBase64 = base64_encode(file_get_contents($fileSK->getTempName()));
+        }
+    }
+
+    // Validasi file Pas Foto
+    if ($filePasFoto && $filePasFoto->isValid() && !$filePasFoto->hasMoved()) {
+        if ($filePasFoto->getSize() > $maxFileSizeFoto) {
+            $errors[] = 'File Pas Foto terlalu besar. Maksimal ukuran file adalah 120 KB.';
+        } else {
+            $filePasFotoBase64 = base64_encode(file_get_contents($filePasFoto->getTempName()));
+        }
+    }
+
+    // Validasi file KTP
+    if ($fileKTP && $fileKTP->isValid() && !$fileKTP->hasMoved()) {
+        if ($fileKTP->getSize() > $maxFileSizeFoto) {
+            $errors[] = 'File KTP terlalu besar. Maksimal ukuran file adalah 120 KB.';
+        } else {
+            $fileKTPBase64 = base64_encode(file_get_contents($fileKTP->getTempName()));
+        }
+    }
+
+    // Validasi file KK
+    if ($fileKK && $fileKK->isValid() && !$fileKK->hasMoved()) {
+        if ($fileKK->getSize() > $maxFileSizeFoto) {
+            $errors[] = 'File KK terlalu besar. Maksimal ukuran file adalah 120 KB.';
+        } else {
+            $fileKKBase64 = base64_encode(file_get_contents($fileKK->getTempName()));
+        }
+    }
+
+    // Validasi file Foto Rumah
+    if ($fileFotoRumah && $fileFotoRumah->isValid() && !$fileFotoRumah->hasMoved()) {
+        if ($fileFotoRumah->getSize() > $maxFileSizeFoto) {
+            $errors[] = 'File Foto Rumah terlalu besar. Maksimal ukuran file adalah 120 KB.';
+        } else {
+            $fileFotoRumahBase64 = base64_encode(file_get_contents($fileFotoRumah->getTempName()));
+        }
+    }
+
+    // Jika ada error, kembalikan dengan error message, tetapi data lainnya tetap disimpan
+    if (!empty($errors)) {
+        return redirect()->back()->withInput()->with('error', implode('<br>', $errors));
+    }
+
     // Simpan data ke database
     $this->PermohonanModel->save([
         'id_asn' => $this->request->getPost('id_asn'),
@@ -181,8 +230,9 @@ class PermohonanController extends Controller
         'status' => 'tunggu'
     ]);
 
-        return redirect()->to('/pemohon_baru')->with('success', 'Data Permohonan berhasil ditambahkan.');
-    }
+    return redirect()->to('/pemohon_baru')->with('success', 'Data Permohonan berhasil ditambahkan.');
+}
+
 
     public function edit($id)
     {
@@ -196,45 +246,69 @@ class PermohonanController extends Controller
     }
 
     public function update($id)
-    {
-        $this->PermohonanModel->update($id, [
-            'nama_pemohon' => $this->request->getPost('nama_pemohon'),
-            'nip' => $this->request->getPost('nip'),
-            'no_hp' => $this->request->getPost('no_hp'),
-            'jabatan' => $this->request->getPost('jabatan'),
-            'gaji_pokok' => $this->request->getPost('gaji_pokok'),
-            'golongan_pangkat' => $this->request->getPost('golongan_pangkat'),
-            'alamat_sekarang' => $this->request->getPost('alamat_sekarang'),
-            'bersedia_menaati' => $this->request->getPost('bersedia_menaati_peraturan'),
-            'alamat_rumah_dinas' => $this->request->getPost('alamat_rumah_dinas'),
-            'nomor_rumah_dinas' => $this->request->getPost('nomor_rumah_dinas'),
-            'rumah_ditempati' => $this->request->getPost('rumah_ditempati'),
-            'tanggal_ditempati' => $this->request->getPost('tanggal_ditempati'),
-            'keterangan' => $this->request->getPost('keterangan'),
-            'file_sk' => $this->request->getPost('file_sk'),
-            'file_ktp' => $this->request->getPost('file_ktp'),
-            'file_kk' => $this->request->getPost('file_kk'),
-            'file_pas_foto' => $this->request->getPost('file_pas_foto'),
-            'file_foto_rumah' => $this->request->getPost('file_foto_rumah'),
-            // 'id_asn' => $this->request->getPost('id_asn'),
-            'id_keluarga' =>'1',
-        ]);
-        
-        // Handle file upload if new files are uploaded
-        $fileSK = $this->request->getFile('file_sk');
-        if ($fileSK && $fileSK->isValid() && !$fileSK->hasMoved()) {
-            // Delete old file if necessary
-            // (Add logic to delete old file if needed)
-            $fileSKName = $fileSK->getRandomName();
-            $fileSK->move('uploads/permohonan', $fileSKName);
-            $data['file_sk'] = $fileSKName;
+{
+    // Validasi dan ambil input data
+    $data = [
+        'nama_pemohon' => $this->request->getPost('nama_pemohon'),
+        'nip' => $this->request->getPost('nip'),
+        'no_hp' => $this->request->getPost('no_hp'),
+        'jabatan' => $this->request->getPost('jabatan'),
+        'gaji_pokok' => $this->request->getPost('gaji_pokok'),
+        'golongan_pangkat' => $this->request->getPost('golongan_pangkat'),
+        'alamat_sekarang' => $this->request->getPost('alamat_sekarang'),
+        'bersedia_menaati' => $this->request->getPost('bersedia_menaati_peraturan'),
+        'alamat_rumah_dinas' => $this->request->getPost('alamat_rumah_dinas'),
+        'nomor_rumah_dinas' => $this->request->getPost('nomor_rumah_dinas'),
+        'rumah_ditempati' => $this->request->getPost('rumah_ditempati'),
+        'tanggal_ditempati' => $this->request->getPost('tanggal_ditempati'),
+        'keterangan' => $this->request->getPost('keterangan'),
+        'id_keluarga' => '1',
+    ];
+
+    // Ukuran maksimal file (dalam KB)
+    $maxFileSize = [
+        'file_sk' => 100 * 1024, // 100 KB
+        'file_ktp' => 120 * 1024, // 120 KB
+        'file_kk' => 120 * 1024, // 120 KB
+        'file_pas_foto' => 120 * 1024, // 120 KB
+        'file_foto_rumah' => 120 * 1024, // 120 KB
+    ];
+
+    // File upload field names
+    $fileFields = ['file_sk', 'file_ktp', 'file_kk', 'file_pas_foto', 'file_foto_rumah'];
+
+    foreach ($fileFields as $field) {
+        $file = $this->request->getFile($field);
+        if ($file && $file->isValid() && !$file->hasMoved()) {
+            // Validasi ukuran file
+            if ($file->getSize() > $maxFileSize[$field]) {
+                return redirect()->back()->withInput()->with('error', ucfirst(str_replace('_', ' ', $field)) . ' tidak boleh lebih dari ' . ($maxFileSize[$field] / 1024) . 'KB.');
+            }
+
+            // Hapus file lama jika ada
+            $existingData = $this->PermohonanModel->find($id);
+            if (!empty($existingData[$field])) {
+                $oldFilePath = FCPATH . 'uploads/permohonan/' . $existingData[$field];
+                if (file_exists($oldFilePath)) {
+                    unlink($oldFilePath);
+                }
+            }
+
+            // Simpan file baru
+            $newFileName = $file->getRandomName();
+            $file->move('uploads/permohonan', $newFileName);
+            $data[$field] = $newFileName;
         }
-
-        // Repeat for other files (KTP, KK, Pas Foto, Foto Rumah)
-        // ...
-
-        return redirect()->to('/pemohon_baru')->with('success', 'Data Permohonan berhasil diupdate.');
     }
+
+    // Update data ke database
+    $this->PermohonanModel->update($id, $data);
+
+    return redirect()->to('/pemohon_baru')->with('success', 'Data Permohonan berhasil diperbarui.');
+}
+
+     
+    
 
     public function delete($id)
     {

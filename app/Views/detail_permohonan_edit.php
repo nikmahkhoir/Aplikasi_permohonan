@@ -27,6 +27,15 @@
                             <h3 class="card-title">Edit Permohonan</h3>
                         </div>
                         <!-- /.card-header -->
+
+                        <div class="card-body">
+                               <!-- Tambahkan pesan error di atas form -->
+                            <?php if (session()->getFlashdata('error')): ?>
+                                <div class="alert alert-danger">
+                                    <?= session()->getFlashdata('error') ?>
+                                </div>
+                            <?php endif; ?>
+
                         <div class="card-body">
                             <form action="/proses_edit_detail_permohonan/<?= $permohonan['id_pemohon'] ?>" method="post" enctype="multipart/form-data">
                                 <div class="form-group">
@@ -124,54 +133,59 @@
                                     <label for="keterangan">Keterangan</label>
                                     <textarea class="form-control" id="keterangan" name="keterangan"><?= $permohonan['keterangan'] ?></textarea>
                                 </div>
-
                                 <div class="form-group">
-                                    <label for="file_sk">File SK Terakhir <span class="text-danger">*</span></label>
-                                    <input type="file" class="form-control" id="file_sk" accept="application/pdf" name="file_sk">
-                                    <?php if($permohonan['file_sk']): ?>
-                                        <small><a href="data:application/pdf;base64,<?= $permohonan['file_sk']; ?>" download="Surat_Keterangan.pdf">Unduh Surat Keterangan</a></small>
-                                    <?php endif; ?>
-                                </div>
+    <label for="file_sk">File SK Kepegawaian Terakhir</label>
+    <small class="form-text text-muted">Upload file dalam format PDF. Ukuran file maksimal 100KB.</small>
+    <input type="file" class="form-control" id="file_sk" name="file_sk" accept="application/pdf">
+    <?php if (!empty($permohonan['file_sk'])): ?>
+        <small>Current File: <a href="<?= base_url('uploads/permohonan/' . $permohonan['file_sk']) ?>" target="_blank">View File SK</a></small>
+    <?php endif; ?>
+</div>
 
-                                <div class="form-group">
-                                    <label for="file_ktp">File KTP <span class="text-danger">*</span></label>
-                                    <input type="file" class="form-control" id="file_ktp" accept=".jpg,.png,.jpeg" name="file_ktp">
-                                    <?php if (!empty($permohonan['file_ktp'])): ?>
-                                            <img src="data:image/jpg;base64,<?= $permohonan['file_ktp']; ?>" alt="KTP" height="80px" width="80px">
-                                        <?php else: ?>
-                                            Tidak ada file KTP
-                                        <?php endif; ?>
-                                </div>
+<div class="form-group">
+    <label for="file_ktp">File KTP <span class="text-danger">*</span></label>
+    <small class="form-text text-muted">Upload file dalam format JPG, PNG, atau JPEG. Ukuran file maksimal 120KB.</small>
+    <input type="file" class="form-control" id="file_ktp" accept=".jpg,.png,.jpeg" name="file_ktp">
+    <?php if (!empty($permohonan['file_ktp'])): ?>
+        <img src="data:image/jpg;base64,<?= $permohonan['file_ktp']; ?>" alt="KTP" height="80px" width="80px">
+    <?php else: ?>
+        Tidak ada file KTP
+    <?php endif; ?>
+</div>
 
-                                <div class="form-group">
-                                    <label for="file_kk">File KK <span class="text-danger">*</span></label>
-                                    <input type="file" class="form-control" id="file_kk" accept=".jpg,.png,.jpeg" name="file_kk">
-                                    <?php if (!empty($permohonan['file_kk'])): ?>
-                                            <img src="data:image/jpg;base64,<?= $permohonan['file_kk']; ?>" alt="File KK" height="80px" width="80px">
-                                        <?php else: ?>
-                                            Tidak ada file KK
-                                        <?php endif; ?>
-                                </div>
+<div class="form-group">
+    <label for="file_kk">File KK <span class="text-danger">*</span></label>
+    <small class="form-text text-muted">Upload file dalam format JPG, PNG, atau JPEG. Ukuran file maksimal 120KB.</small>
+    <input type="file" class="form-control" id="file_kk" accept=".jpg,.png,.jpeg" name="file_kk">
+    <?php if (!empty($permohonan['file_kk'])): ?>
+        <img src="data:image/jpg;base64,<?= $permohonan['file_kk']; ?>" alt="KK" height="80px" width="80px">
+    <?php else: ?>
+        Tidak ada file KK
+    <?php endif; ?>
+</div>
 
-                                <div class="form-group">
-                                    <label for="file_pas_foto">File Pas Foto Berwarna Ukuran 2x3 <span class="text-danger">*</span></label>
-                                    <input type="file" class="form-control" id="file_pas_foto" accept=".jpg,.png,.jpeg" name="file_pas_foto">
-                                    <?php if (!empty($permohonan['file_pas_foto'])): ?>
-                                            <img src="data:image/jpg;base64,<?= $permohonan['file_pas_foto']; ?>" alt="File Pas Foto" height="80px" width="80px">
-                                        <?php else: ?>
-                                            Tidak ada file Pas Foto
-                                        <?php endif; ?>
-                                </div>
+<div class="form-group">
+    <label for="file_pas_foto">File Pas Foto Berwarna Ukuran 2x3 <span class="text-danger">*</span></label>
+    <small class="form-text text-muted">Upload file dalam format JPG, PNG, atau JPEG. Ukuran file maksimal 120KB.</small>
+    <input type="file" class="form-control" id="file_pas_foto" accept=".jpg,.png,.jpeg" name="file_pas_foto">
+    <?php if (!empty($permohonan['file_pas_foto'])): ?>
+        <img src="data:image/jpg;base64,<?= $permohonan['file_pas_foto']; ?>" alt="Pas Foto" height="80px" width="80px">
+    <?php else: ?>
+        Tidak ada file Pas Foto
+    <?php endif; ?>
+</div>
 
-                                <div class="form-group">
-                                    <label for="file_foto_rumah">File Foto Rumah Bangunan Asli Dari Depan Dan Bangunan Tambahan <span class="text-danger">*</span></label>
-                                    <input type="file" class="form-control" id="file_foto_rumah" accept=".jpg,.png,.jpeg" name="file_foto_rumah">
-                                    <?php if (!empty($permohonan['file_foto_rumah'])): ?>
-                                            <img src="data:image/jpg;base64,<?= $permohonan['file_foto_rumah']; ?>" alt="File Foto Rumah" height="80px" width="80px">
-                                        <?php else: ?>
-                                            Tidak ada file Foto Rumah
-                                        <?php endif; ?>
-                                </div>
+<div class="form-group">
+    <label for="file_foto_rumah">File Foto Rumah Bangunan Asli Dari Depan Dan Bangunan Tambahan <span class="text-danger">*</span></label>
+    <small class="form-text text-muted">Upload file dalam format JPG, PNG, atau JPEG. Ukuran file maksimal 120KB.</small>
+    <input type="file" class="form-control" id="file_foto_rumah" accept=".jpg,.png,.jpeg" name="file_foto_rumah">
+    <?php if (!empty($permohonan['file_foto_rumah'])): ?>
+        <img src="data:image/jpg;base64,<?= $permohonan['file_foto_rumah']; ?>" alt="Foto Rumah" height="80px" width="80px">
+    <?php else: ?>
+        Tidak ada file Foto Rumah
+    <?php endif; ?>
+</div>
+
 
                                 <button type="submit" class="btn btn-success">Update Data</button>
                                 <a href="/permohonan" class="btn btn-danger">Batal</a>

@@ -288,7 +288,9 @@ $pdf->AddPage('P', 'A4'); // Add a page in portrait orientation A4
     $pdf->Cell(0, 6, 'SURAT PERJANJIAN PENGHUNIAN RUMAH NEGARA', 0, 1, 'C');
 
     $pdf->SetFont('Arial', '', 10);
-    $pdf->Cell(0, 6, 'Nomor: ', 0, 1, 'C');
+    $pdf->Cell(55, 6, '', 0, 0);
+    $pdf->MultiCell(0, 6, 'Nomor :');
+    // $pdf->Ln(3); // New line
 
     $pdf->Cell(15, 6, '', 0, 0);
     $pdf->MultiCell(0, 6, 'Pada Hari ini ' . $hari_tampil.' tanggal '.terbilang(substr($persetujuan['tanggal_mulai'],8,2)).' bulan '.terbilang(substr($persetujuan['tanggal_mulai'],5,2)).' tahun '.terbilang(substr($persetujuan['tanggal_mulai'],0,4)).' masing-masing dibawah ini :');

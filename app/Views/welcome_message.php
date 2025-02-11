@@ -64,7 +64,7 @@
             <div class="col-md-6">
                 <div class="card mt-5 login-card">
                     <div class="card-header text-center">
-                        <h3>SIRUMDIS</h3>
+                        <h3>SIRUDI</h3>
                         <h5>Sistem Informasi Permohonan <br>Surat Izin Rumah Dinas</h5>
                     </div>
                     <div class="card-body">
